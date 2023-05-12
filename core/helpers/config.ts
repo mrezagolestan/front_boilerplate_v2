@@ -1,11 +1,18 @@
 import { computed } from "vue";
-import store from "@/store/index";
+//mport {useStore} from "vuex";
+//import {createStore} from "@/store/index";
+
+
+const store = useState();
+console.log('hiiiiiiiiiiiiiiiiiiiiiii')
+console.log(store)
 
 /**
  * Returns layout config
  * @returns {object}
  */
 export const config = computed(() => {
+  //return actions.ConfigModule.layoutConfig();
   return store.getters.layoutConfig();
 });
 
@@ -14,7 +21,10 @@ export const config = computed(() => {
  * @returns {boolean}
  */
 export const displaySidebar = computed(() => {
-  return store.getters.layoutConfig("sidebar.display");
+  console.log('store')
+  console.log(getters)
+  return getters.layoutConfig("sidebar.display");
+  //return store.getters.layoutConfig("sidebar.display");
 });
 
 /**

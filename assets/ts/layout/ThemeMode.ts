@@ -16,6 +16,10 @@ class ThemeMode {
     const modeParam: string = this.getParamName('value')
     const menuMode: Mode | '' = this.getMenuMode()
     const defaultMode = 'light'
+
+    if (process.server) {
+      return defaultMode
+    }
     if (!localStorage) {
       return defaultMode
     }
@@ -80,12 +84,12 @@ class ThemeMode {
 		}, 300);
 
     // Store mode value in storage
-    if (localStorage) {
+    if (process.client && localStorage) {
       localStorage.setItem(modeParam, mode)
     }
 
     // Set active menu item
-    if (activeMenuItem && localStorage) {
+    if (process.client && activeMenuItem && localStorage) {
       localStorage.setItem(menuModeParam, menuMode)
       this.setActiveMenuItem(activeMenuItem)
     }
@@ -106,7 +110,7 @@ class ThemeMode {
       return ''
     }
 
-    const ls = localStorage ? localStorage.getItem(menuModeParam) : null
+    const ls = process.client && localStorage ? localStorage.getItem(menuModeParam) : null
     return (ls as Mode) || ''
   }
 
@@ -138,7 +142,7 @@ class ThemeMode {
     }
 
     item.classList.add('active')
-    if (localStorage && menuMode && menuModeParam) {
+    if (process.client && localStorage && menuMode && menuModeParam) {
       localStorage.setItem(menuModeParam, menuMode)
     }
   }

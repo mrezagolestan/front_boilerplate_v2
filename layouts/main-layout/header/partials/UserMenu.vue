@@ -302,7 +302,7 @@ import { defineComponent, computed } from "vue";
 import { useI18n } from "vue-i18n";
 import { useStore } from "vuex";
 import { useRouter } from "vue-router";
-import { Actions } from "~/store/StoreEnums";
+import { Actions } from "@/store/enums/StoreEnums";
 
 export default defineComponent({
   name: "kt-user-menu",
@@ -312,7 +312,7 @@ export default defineComponent({
     const i18n = useI18n();
     const store = useStore();
 
-    i18n.locale.value = localStorage.getItem("lang")
+    i18n.locale.value = process.client && localStorage.getItem("lang")
       ? (localStorage.getItem("lang") as string)
       : "en";
 
@@ -346,7 +346,9 @@ export default defineComponent({
     };
 
     const setLang = (lang) => {
-      localStorage.setItem("lang", lang);
+      if(process.client){
+        localStorage.setItem("lang", lang);
+      }
       i18n.locale.value = lang;
     };
 

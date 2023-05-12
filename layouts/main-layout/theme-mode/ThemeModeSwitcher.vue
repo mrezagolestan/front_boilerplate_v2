@@ -63,7 +63,7 @@
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import { useStore } from "vuex";
-import { Actions } from "~/store/StoreEnums";
+import { Actions } from "@/store/enums/StoreEnums";
 import { useRoute } from "vue-router";
 
 export default defineComponent({
