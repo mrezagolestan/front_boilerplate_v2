@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
+    modules: [
+        '@pinia/nuxt'
+    ],
     css: [
         'bootstrap-icons/font/bootstrap-icons.css',
         'apexcharts/dist/apexcharts.css',
@@ -23,4 +26,12 @@ export default defineNuxtConfig({
 
     ],
 
+    app: {
+        head: {
+            title: 'Test',
+            script: [
+                {src: "/js/bootstrap.min.js", type: 'text/javascript'},
+            ],
+        }
+    }
 });

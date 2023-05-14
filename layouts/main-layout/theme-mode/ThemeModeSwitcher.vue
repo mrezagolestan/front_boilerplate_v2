@@ -62,25 +62,24 @@
 
 <script lang="ts">
 import { defineComponent, computed } from "vue";
-import { useStore } from "vuex";
-import { Actions } from "@/store/enums/StoreEnums";
+import { useThemeStore } from "@/store/theme";
 import { useRoute } from "vue-router";
 
 export default defineComponent({
   name: "kt-theme-switcher",
   component: {},
   setup() {
-    const store = useStore();
+    const themeStore = useThemeStore();
     const route = useRoute();
 
     const themeMode = computed(() => {
-      return store.getters.getThemeMode;
+      return themeStore.getThemeMode();
     });
 
     const path = computed(() => route.path);
 
     const setMode = (mode: string) => {
-      store.dispatch(Actions.SET_THEME_MODE_ACTION, mode);
+      themeStore.setThemeModeAction(mode);
     };
 
     return {

@@ -120,7 +120,7 @@
 import { defineComponent, ref, computed, onBeforeMount, watch } from "vue";
 import Dropdown1 from "@/components/dropdown/Dropdown1.vue";
 import { getCSSVariableValue } from "assets/ts/_utils";
-import { useStore } from "vuex";
+import { useThemeStore } from "@/store/theme";
 import { ApexOptions } from "apexcharts";
 import VueApexCharts from "vue3-apexcharts";
 
@@ -137,7 +137,7 @@ export default defineComponent({
   setup(props) {
     const chartRef = ref<typeof VueApexCharts | null>(null);
     let chart: ApexOptions = {};
-    const store = useStore();
+    const themeStore = useThemeStore();
 
     const series = [
       {
@@ -147,7 +147,7 @@ export default defineComponent({
     ];
 
     const themeMode = computed(() => {
-      return store.getters.getThemeMode;
+      return themeStore.getThemeMode();
     });
 
     onBeforeMount(() => {

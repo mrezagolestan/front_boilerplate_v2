@@ -42,7 +42,7 @@ import { defineComponent, ref, onBeforeMount, computed, watch } from "vue";
 import { getCSSVariableValue } from "assets/ts/_utils";
 import VueApexCharts from "vue3-apexcharts";
 import { ApexOptions } from "apexcharts";
-import { useStore } from "vuex";
+import { useThemeStore } from "@/store/theme";
 
 export default defineComponent({
   name: "widget-7",
@@ -55,7 +55,7 @@ export default defineComponent({
     const chartRef = ref<typeof VueApexCharts | null>(null);
     const color = ref(props.chartColor);
     let chart: ApexOptions = {};
-    const store = useStore();
+    const themeStore = useThemeStore();
 
     const series = ref([
       {
@@ -65,7 +65,7 @@ export default defineComponent({
     ]);
 
     const themeMode = computed(() => {
-      return store.getters.getThemeMode;
+      return themeStore.getThemeMode();
     });
 
     onBeforeMount(() => {

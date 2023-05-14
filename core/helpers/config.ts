@@ -1,19 +1,14 @@
 import { computed } from "vue";
-//mport {useStore} from "vuex";
-//import {createStore} from "@/store/index";
+import { useConfigStore } from '@/store/config'
 
 
-const store = useState();
-console.log('hiiiiiiiiiiiiiiiiiiiiiii')
-console.log(store)
-
+const configStore = useConfigStore();
 /**
  * Returns layout config
  * @returns {object}
  */
 export const config = computed(() => {
-  //return actions.ConfigModule.layoutConfig();
-  return store.getters.layoutConfig();
+  return configStore.layoutConfig();
 });
 
 /**
@@ -21,10 +16,7 @@ export const config = computed(() => {
  * @returns {boolean}
  */
 export const displaySidebar = computed(() => {
-  console.log('store')
-  console.log(getters)
-  return getters.layoutConfig("sidebar.display");
-  //return store.getters.layoutConfig("sidebar.display");
+  return configStore.layoutConfig("sidebar.display");
 });
 
 /**
@@ -32,7 +24,7 @@ export const displaySidebar = computed(() => {
  * @returns {boolean}
  */
 export const footerWidthFluid = computed(() => {
-  return store.getters.layoutConfig("footer.width") === "fluid";
+  return configStore.layoutConfig("footer.width") === "fluid";
 });
 
 /**
@@ -40,7 +32,7 @@ export const footerWidthFluid = computed(() => {
  * @returns {boolean}
  */
 export const headerWidthFluid = computed(() => {
-  return store.getters.layoutConfig("header.width") === "fluid";
+  return configStore.layoutConfig("header.width") === "fluid";
 });
 
 /**
@@ -48,7 +40,7 @@ export const headerWidthFluid = computed(() => {
  * @returns {string}
  */
 export const headerLeft = computed(() => {
-  return store.getters.layoutConfig("header.left");
+  return configStore.layoutConfig("header.left");
 });
 
 /**
@@ -56,7 +48,7 @@ export const headerLeft = computed(() => {
  * @returns {boolean}
  */
 export const asideDisplay = computed(() => {
-  return store.getters.layoutConfig("aside.display") === true;
+  return configStore.layoutConfig("aside.display") == "true";
 });
 
 /**
@@ -64,7 +56,7 @@ export const asideDisplay = computed(() => {
  * @returns {boolean}
  */
 export const toolbarWidthFluid = computed(() => {
-  return store.getters.layoutConfig("toolbar.width") === "fluid";
+  return configStore.layoutConfig("toolbar.width") === "fluid";
 });
 
 /**
@@ -72,7 +64,7 @@ export const toolbarWidthFluid = computed(() => {
  * @returns {boolean}
  */
 export const toolbarDisplay = computed(() => {
-  return store.getters.layoutConfig("toolbar.display");
+  return configStore.layoutConfig("toolbar.display");
 });
 
 /**
@@ -80,7 +72,7 @@ export const toolbarDisplay = computed(() => {
  * @returns {boolean}
  */
 export const pageTitleDisplay = computed(() => {
-  return store.getters.layoutConfig("pageTitle.display");
+  return configStore.layoutConfig("pageTitle.display");
 });
 
 /**
@@ -88,7 +80,7 @@ export const pageTitleDisplay = computed(() => {
  * @returns {boolean}
  */
 export const pageTitleBreadcrumbDisplay = computed(() => {
-  return store.getters.layoutConfig("pageTitle.breadcrumb");
+  return configStore.layoutConfig("pageTitle.breadcrumb");
 });
 
 /**
@@ -96,7 +88,7 @@ export const pageTitleBreadcrumbDisplay = computed(() => {
  * @returns { "row" | "column" }
  */
 export const pageTitleDirection = computed(() => {
-  return store.getters.layoutConfig("pageTitle.direction");
+  return configStore.layoutConfig("pageTitle.direction");
 });
 
 /**
@@ -104,7 +96,7 @@ export const pageTitleDirection = computed(() => {
  * @returns {boolean}
  */
 export const loaderEnabled = computed(() => {
-  return store.getters.layoutConfig("loader.display");
+  return configStore.layoutConfig("loader.display");
 });
 
 /**
@@ -112,7 +104,7 @@ export const loaderEnabled = computed(() => {
  * @returns {boolean}
  */
 export const contentWidthFluid = computed(() => {
-  return store.getters.layoutConfig("content.width") === "fluid";
+  return configStore.layoutConfig("content.width") === "fluid";
 });
 
 /**
@@ -120,7 +112,7 @@ export const contentWidthFluid = computed(() => {
  * @returns {string}
  */
 export const loaderLogo = computed(() => {
-  return process.env.BASE_URL + store.getters.layoutConfig("loader.logo");
+  return process.env.BASE_URL + configStore.layoutConfig("loader.logo");
 });
 
 /**
@@ -128,7 +120,7 @@ export const loaderLogo = computed(() => {
  * @returns {boolean}
  */
 export const asideEnabled = computed(() => {
-  return !!store.getters.layoutConfig("aside.display");
+  return !!configStore.layoutConfig("aside.display");
 });
 
 /**
@@ -136,7 +128,7 @@ export const asideEnabled = computed(() => {
  * @returns {string}
  */
 export const asideTheme = computed(() => {
-  return store.getters.layoutConfig("aside.theme");
+  return configStore.layoutConfig("aside.theme");
 });
 
 /**
@@ -144,7 +136,7 @@ export const asideTheme = computed(() => {
  * @returns {boolean}
  */
 export const subheaderDisplay = computed(() => {
-  return store.getters.layoutConfig("toolbar.display");
+  return configStore.layoutConfig("toolbar.display");
 });
 
 /**
@@ -152,7 +144,7 @@ export const subheaderDisplay = computed(() => {
  * @returns {string}
  */
 export const asideMenuIcons = computed(() => {
-  return store.getters.layoutConfig("aside.menuIcon");
+  return configStore.layoutConfig("aside.menuIcon");
 });
 
 /**
@@ -160,7 +152,7 @@ export const asideMenuIcons = computed(() => {
  * @returns {string}
  */
 export const themeLightLogo = computed(() => {
-  return store.getters.layoutConfig("main.logo.light");
+  return configStore.layoutConfig("main.logo.light");
 });
 
 /**
@@ -168,7 +160,7 @@ export const themeLightLogo = computed(() => {
  * @returns {string}
  */
 export const themeDarkLogo = computed(() => {
-  return store.getters.layoutConfig("main.logo.dark");
+  return configStore.layoutConfig("main.logo.dark");
 });
 
 /**
@@ -176,7 +168,7 @@ export const themeDarkLogo = computed(() => {
  * @returns {string}
  */
 export const headerMenuIcons = computed(() => {
-  return store.getters.layoutConfig("header.menuIcon");
+  return configStore.layoutConfig("header.menuIcon");
 });
 
 /**
@@ -184,5 +176,5 @@ export const headerMenuIcons = computed(() => {
  * @returns {string}
  */
 export const illustrationsSet = computed(() => {
-  return store.getters.layoutConfig("illustrations.set");
+  return configStore.layoutConfig("illustrations.set");
 });

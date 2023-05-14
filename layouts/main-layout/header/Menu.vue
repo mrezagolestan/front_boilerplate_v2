@@ -458,24 +458,23 @@ export default defineComponent({
     const { t, te } = useI18n();
     const route = useRoute();
 
-    // -------------------- Commented because of error for match & text & i think it is unneccessary
-    // const hasActiveChildren = (match) => {
-    //   return route.path.indexOf(match) !== -1;
-    // };
-    //
-    // const translate = (text) => {
-    //   if (te(text)) {
-    //     return t(text);
-    //   } else {
-    //     return text;
-    //   }
-    // };
+    const hasActiveChildren = (match) => {
+      return route.path.indexOf(match) !== -1;
+    };
+
+    const translate = (text) => {
+      if (te(text)) {
+        return t(text);
+      } else {
+        return text;
+      }
+    };
 
     return {
-      //hasActiveChildren,
+      hasActiveChildren,
       headerMenuIcons,
       MainMenuConfig,
-      //translate,
+      translate,
       version,
     };
   },

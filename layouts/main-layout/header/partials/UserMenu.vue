@@ -300,9 +300,8 @@
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import { useI18n } from "vue-i18n";
-import { useStore } from "vuex";
+import { useAuthStore } from "@/store/auth";
 import { useRouter } from "vue-router";
-import { Actions } from "@/store/enums/StoreEnums";
 
 export default defineComponent({
   name: "kt-user-menu",
@@ -310,7 +309,7 @@ export default defineComponent({
   setup() {
     const router = useRouter();
     const i18n = useI18n();
-    const store = useStore();
+    const authStore = useAuthStore();
 
     i18n.locale.value = process.client && localStorage.getItem("lang")
       ? (localStorage.getItem("lang") as string)
@@ -340,9 +339,7 @@ export default defineComponent({
     };
 
     const signOut = () => {
-      store
-        .dispatch(Actions.LOGOUT)
-        .then(() => router.push({ name: "sign-in" }));
+      authStore.logout().then(() => router.push({ name: "sign-in" }));
     };
 
     const setLang = (lang) => {

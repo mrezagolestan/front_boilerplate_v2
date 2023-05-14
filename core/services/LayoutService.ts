@@ -1,7 +1,8 @@
 import objectPath from "object-path";
-import { Actions } from "~/store/StoreEnums";
-import store from "@/store/";
+import { useBodyStore } from "@/store/body";
 import { config } from "@/core/helpers/config";
+
+const bodyStore = useBodyStore();
 
 class LayoutService {
   /**
@@ -23,14 +24,14 @@ class LayoutService {
    * @description init layout
    */
   public static initLayout(): void {
-    store.dispatch(Actions.ADD_BODY_ATTRIBUTE, {
+    bodyStore.addBodyAttribute({
       qualifiedName: "id",
       value: "kt_body",
     });
 
     if (objectPath.get(config.value, "loader.display")) {
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading-enabled");
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+      bodyStore.addBodyClassName("page-loading-enabled");
+      bodyStore.addBodyClassName("page-loading");
     }
   }
 
@@ -39,14 +40,11 @@ class LayoutService {
    */
   public static initHeader(): void {
     if (objectPath.get(config.value, "header.fixed.desktop")) {
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "header-fixed");
+      bodyStore.addBodyClassName("header-fixed");
     }
 
     if (objectPath.get(config.value, "header.fixed.tabletAndMobile")) {
-      store.dispatch(
-        Actions.ADD_BODY_CLASSNAME,
-        "header-tablet-and-mobile-fixed"
-      );
+      bodyStore.addBodyClassName("header-tablet-and-mobile-fixed");
     }
   }
 
@@ -58,16 +56,13 @@ class LayoutService {
       return;
     }
 
-    store.dispatch(Actions.ADD_BODY_CLASSNAME, "toolbar-enabled");
+    bodyStore.addBodyClassName("toolbar-enabled");
 
     if (objectPath.get(config.value, "toolbar.fixed")) {
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "toolbar-fixed");
+      bodyStore.addBodyClassName("toolbar-fixed");
     }
 
-    store.dispatch(
-      Actions.ADD_BODY_CLASSNAME,
-      "toolbar-tablet-and-mobile-fixed"
-    );
+    bodyStore.addBodyClassName("toolbar-tablet-and-mobile-fixed");
   }
 
   /**
@@ -79,16 +74,16 @@ class LayoutService {
     }
 
     // Enable Aside
-    store.dispatch(Actions.ADD_BODY_CLASSNAME, "aside-enabled");
+    bodyStore.addBodyClassName("aside-enabled");
 
     if (objectPath.get(config.value, "aside.fixed")) {
       // Fixed Aside
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "aside-fixed");
+      bodyStore.addBodyClassName("aside-fixed");
     }
 
     // Default minimized
     if (objectPath.get(config.value, "aside.minimized")) {
-      store.dispatch(Actions.ADD_BODY_ATTRIBUTE, {
+      bodyStore.addBodyAttribute({
         qualifiedName: "data-kt-aside-minimize",
         value: "on",
       });
@@ -104,7 +99,7 @@ class LayoutService {
     }
 
     // Enable Sidebar
-    store.dispatch(Actions.ADD_BODY_CLASSNAME, "sidebar-enabled");
+    bodyStore.addBodyClassName("sidebar-enabled");
   }
 
   /**
@@ -113,7 +108,7 @@ class LayoutService {
   public static initFooter(): void {
     // Fixed header
     if (objectPath.get(config.value, "footer.width") === "fixed") {
-      store.dispatch(Actions.ADD_BODY_CLASSNAME, "footer-fixed");
+      bodyStore.addBodyClassName("footer-fixed");
     }
   }
 
@@ -121,14 +116,14 @@ class LayoutService {
     config.value.sidebar.display = true;
 
     // Enable Sidebar
-    store.dispatch(Actions.ADD_BODY_CLASSNAME, "sidebar-enabled");
+    bodyStore.addBodyClassName("sidebar-enabled");
   }
 
   public static disableSidebar(): void {
     config.value.sidebar.display = false;
 
     // Disable Sidebar
-    store.dispatch(Actions.REMOVE_BODY_CLASSNAME, "sidebar-enabled");
+    bodyStore.removeBodyClassName("sidebar-enabled");
   }
 
   public static emptyElementClassesAndAttributes(element: HTMLElement): void {

@@ -53,7 +53,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, watch, onBeforeMount } from "vue";
-import { useStore } from "vuex";
+import { useThemeStore } from "@/store/theme";
 import { ApexOptions } from "apexcharts";
 import { getCSSVariableValue } from "assets/ts/_utils";
 import VueApexCharts from "vue3-apexcharts";
@@ -67,7 +67,7 @@ export default defineComponent({
   setup() {
     const chartRef = ref<typeof VueApexCharts | null>(null);
     let chart: ApexOptions = {};
-    const store = useStore();
+    const themeStore = useThemeStore();
 
     const series = [
       {
@@ -81,7 +81,7 @@ export default defineComponent({
     ];
 
     const themeMode = computed(() => {
-      return store.getters.getThemeMode;
+      return themeStore.getThemeMode();
     });
 
     onBeforeMount(() => {

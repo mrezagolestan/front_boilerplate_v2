@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import { defineComponent, computed } from "vue";
-import { useStore } from "vuex";
+import { useConfigStore } from "@/store/config";
 
 export default defineComponent({
   name: "layout-loader",
@@ -36,10 +36,10 @@ export default defineComponent({
     logo: String,
   },
   setup() {
-    const store = useStore();
+    const configStore = useConfigStore();
 
     const loaderType = computed(() => {
-      return store.getters.layoutConfig("loader.type");
+      return configStore.layoutConfig("loader.type");
     });
 
     return {
