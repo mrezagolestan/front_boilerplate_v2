@@ -1,14 +1,15 @@
 import { computed } from "vue";
 import { useConfigStore } from '@/store/config'
+import {createPinia} from 'pinia';
+const pinia = createPinia()
+const configStore = useConfigStore(pinia);
 
-
-const configStore = useConfigStore();
 /**
  * Returns layout config
  * @returns {object}
  */
 export const config = computed(() => {
-  return configStore.layoutConfig();
+    return configStore.layoutConfig();
 });
 
 /**
@@ -112,7 +113,7 @@ export const contentWidthFluid = computed(() => {
  * @returns {string}
  */
 export const loaderLogo = computed(() => {
-  return process.env.BASE_URL + configStore.layoutConfig("loader.logo");
+  return import.meta.env.baseUrl + configStore.layoutConfig("loader.logo");
 });
 
 /**

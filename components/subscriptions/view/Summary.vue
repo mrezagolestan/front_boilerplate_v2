@@ -193,7 +193,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import UserMenu from "~/layouts/main-layout/header/partials/UserMenu.vue";
+import UserMenu from "@/layouts/main-layout/header/partials/UserMenu.vue";
 
 export default defineComponent({
   name: "kt-summary",

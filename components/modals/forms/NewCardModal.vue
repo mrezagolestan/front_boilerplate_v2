@@ -311,7 +311,7 @@
 import { defineComponent, ref } from "vue";
 import { ErrorMessage, Field, Form } from "vee-validate";
 import Swal from "sweetalert2/dist/sweetalert2.js";
-import { hideModal } from "~/core/helpers/dom";
+import { hideModal } from "@/core/helpers/dom";
 import * as Yup from "yup";
 
 interface CardData {

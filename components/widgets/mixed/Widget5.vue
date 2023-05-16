@@ -31,14 +31,16 @@
     <!--begin::Body-->
     <div class="card-body d-flex flex-column">
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        class="mixed-widget-5-chart card-rounded-top"
-        :options="chart"
-        :series="series"
-        type="area"
-        :height="chartHeight"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            class="mixed-widget-5-chart card-rounded-top"
+            :options="chart"
+            :series="series"
+            type="area"
+            :height="chartHeight"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
 
       <!--begin::Items-->

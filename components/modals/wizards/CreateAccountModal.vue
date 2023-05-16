@@ -1083,7 +1083,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, onMounted, ref } from "vue";
-import { hideModal } from "~/core/helpers/dom";
+import { hideModal } from "@/core/helpers/dom";
 import { StepperComponent } from "assets/ts/components/_StepperComponent";
 import Swal from "sweetalert2/dist/sweetalert2.min.js";
 import { useForm } from "vee-validate";

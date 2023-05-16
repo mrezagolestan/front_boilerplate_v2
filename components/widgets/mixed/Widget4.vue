@@ -33,14 +33,16 @@
     <div class="card-body d-flex flex-column">
       <div class="flex-grow-1">
         <!--begin::Chart-->
-        <apexchart
-          ref="chartRef"
-          class="mixed-widget-4-chart"
-          :options="chart"
-          :series="series"
-          :height="chartHeight"
-          type="radialBar"
-        ></apexchart>
+        <ClientOnly>
+          <apexchart
+              ref="chartRef"
+              class="mixed-widget-4-chart"
+              :options="chart"
+              :series="series"
+              :height="chartHeight"
+              type="radialBar"
+          ></apexchart>
+        </ClientOnly>
         <!--end::Chart-->
       </div>
 

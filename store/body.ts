@@ -2,8 +2,6 @@ import { defineStore } from 'pinia'
 
 
 
-
-
 interface StoreInfo {
     header?: Array<string>;
     headerContainer?: Array<string>;

@@ -53,7 +53,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { getIllustrationsPath } from "~/core/helpers/assets";
+import { getIllustrationsPath } from "@/core/helpers/assets";
 
 export default defineComponent({
   name: "widget-1",

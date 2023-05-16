@@ -20,14 +20,16 @@
       </div>
 
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        class="statistics-widget-4-chart card-rounded-bottom"
-        :options="chart"
-        :series="series"
-        :height="height"
-        type="area"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            class="statistics-widget-4-chart card-rounded-bottom"
+            :options="chart"
+            :series="series"
+            :height="height"
+            type="area"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
     </div>
     <!--end::Body-->

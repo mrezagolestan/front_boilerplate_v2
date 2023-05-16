@@ -36,15 +36,17 @@
 
     <!--begin::Body-->
     <div class="card-body">
-      <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        type="bar"
-        :options="chart"
-        :series="series"
-        :height="height"
-      ></apexchart>
-      <!--end::Chart-->
+      <ClientOnly>
+        <!--begin::Chart-->
+        <apexchart
+            ref="chartRef"
+            type="bar"
+            :options="chart"
+            :series="series"
+            :height="height"
+        ></apexchart>
+        <!--end::Chart-->
+      </ClientOnly>
     </div>
     <!--end::Body-->
   </div>

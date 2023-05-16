@@ -318,7 +318,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from "vue";
-import { hideModal } from "~/core/helpers/dom";
+import { hideModal } from "@/core/helpers/dom";
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 interface NewAddressData {

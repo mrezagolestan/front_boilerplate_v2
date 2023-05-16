@@ -27,15 +27,17 @@
     <!--begin::Body-->
     <div class="card-body p-0">
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        :class="`bg-${widgetColor}`"
-        class="mixed-widget-12-chart card-rounded-bottom"
-        :options="chart"
-        :series="series"
-        height="200"
-        type="bar"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            :class="`bg-${widgetColor}`"
+            class="mixed-widget-12-chart card-rounded-bottom"
+            :options="chart"
+            :series="series"
+            height="200"
+            type="bar"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
 
       <!--begin::Stats-->

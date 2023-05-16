@@ -806,7 +806,7 @@ import { useForm } from "vee-validate";
 import { Field, ErrorMessage } from "vee-validate";
 import * as Yup from "yup";
 
-import { getIllustrationsPath } from "~/core/helpers/assets";
+import { getIllustrationsPath } from "@/core/helpers/assets";
 
 interface Step1 {
   appName: string;

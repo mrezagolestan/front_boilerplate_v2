@@ -47,6 +47,8 @@
 <script lang="ts">
 import { defineComponent, computed, onMounted, watch, nextTick } from "vue";
 import { useBodyStore } from "@/store/body";
+import { useAuthStore } from "@/store/auth";
+
 import { useRoute, useRouter } from "vue-router";
 import KTAside from "./main-layout/aside/Aside.vue";
 import KTSidebar from "./main-layout/sidebar/Sidebar.vue";
@@ -96,6 +98,8 @@ export default defineComponent({
   },
   setup() {
     const bodyStore = useBodyStore();
+    const authStore = useAuthStore();
+
     const route = useRoute();
     const router = useRouter();
 
@@ -112,7 +116,7 @@ export default defineComponent({
 
     onMounted(() => {
       //check if current user is authenticated
-      if (!store.getters.isUserAuthenticated) {
+      if (!authStore.isUserAuthenticated()) {
         router.push({ name: "sign-in" });
       }
 

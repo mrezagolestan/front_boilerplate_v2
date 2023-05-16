@@ -18,14 +18,16 @@
       <!--end::Hidden-->
 
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        class="mixed-widget-10-chart"
-        :options="chart"
-        :series="series"
-        type="bar"
-        :height="chartHeight"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            class="mixed-widget-10-chart"
+            :options="chart"
+            :series="series"
+            type="bar"
+            :height="chartHeight"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
     </div>
   </div>

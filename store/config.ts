@@ -1,7 +1,7 @@
 import objectPath from "object-path";
 import merge from "deepmerge";
-import layoutConfig from "~/core/config/DefaultLayoutConfig";
-import LayoutConfigTypes from "~/core/config/LayoutConfigTypes";
+import layoutConfig from "@/core/config/DefaultLayoutConfig";
+import LayoutConfigTypes from "@/core/config/LayoutConfigTypes";
 import { defineStore } from 'pinia'
 
 

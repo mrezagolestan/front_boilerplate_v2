@@ -38,13 +38,15 @@
     <!--begin::Body-->
     <div class="card-body">
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        type="bar"
-        :options="chart"
-        :series="series"
-        :height="height"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            type="bar"
+            :options="chart"
+            :series="series"
+            :height="height"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
     </div>
     <!--end::Body-->

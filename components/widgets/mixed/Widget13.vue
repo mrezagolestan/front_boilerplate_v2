@@ -16,14 +16,16 @@
         <!--end::Title-->
 
         <!--begin::Chart-->
-        <apexchart
-          ref="chartRef"
-          class="mixed-widget-14-chart"
-          :options="chart"
-          :series="series"
-          :height="chartHeight"
-          type="bar"
-        ></apexchart>
+        <ClientOnly>
+          <apexchart
+              ref="chartRef"
+              class="mixed-widget-14-chart"
+              :options="chart"
+              :series="series"
+              :height="chartHeight"
+              type="bar"
+          ></apexchart>
+        </ClientOnly>
         <!--end::Chart-->
       </div>
       <!--end::Wrapper-->

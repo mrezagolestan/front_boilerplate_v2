@@ -22,14 +22,16 @@
       <!--end::Stats-->
 
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        class="mixed-widget-7-chart card-rounded-bottom"
-        :options="chart"
-        :series="series"
-        type="area"
-        :height="chartHeight"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            class="mixed-widget-7-chart card-rounded-bottom"
+            :options="chart"
+            :series="series"
+            type="area"
+            :height="chartHeight"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
     </div>
     <!--end::Body-->

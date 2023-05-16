@@ -101,14 +101,16 @@
       <!--end::Stats-->
 
       <!--begin::Chart-->
-      <apexchart
-        ref="chartRef"
-        class="mixed-widget-3-chart card-rounded-bottom"
-        :options="chart"
-        :series="series"
-        :height="chartHeight"
-        type="area"
-      ></apexchart>
+      <ClientOnly>
+        <apexchart
+            ref="chartRef"
+            class="mixed-widget-3-chart card-rounded-bottom"
+            :options="chart"
+            :series="series"
+            :height="chartHeight"
+            type="area"
+        ></apexchart>
+      </ClientOnly>
       <!--end::Chart-->
     </div>
     <!--end::Body-->

@@ -23,7 +23,7 @@
 
 <script lang="ts">
 import { defineComponent, computed, ref, onMounted } from "vue";
-import { useCopyClipboard } from "~/core/helpers/documentation";
+import { useCopyClipboard } from "@/core/helpers/documentation";
 import Prism from "prismjs";
 
 export default defineComponent({

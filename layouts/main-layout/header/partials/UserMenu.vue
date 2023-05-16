@@ -308,10 +308,10 @@ export default defineComponent({
   components: {},
   setup() {
     const router = useRouter();
-    const i18n = useI18n();
+    const i18nTs = useI18n();
     const authStore = useAuthStore();
 
-    i18n.locale.value = process.client && localStorage.getItem("lang")
+    i18nTs.locale.value = process.client && localStorage.getItem("lang")
       ? (localStorage.getItem("lang") as string)
       : "en";
 
@@ -346,15 +346,15 @@ export default defineComponent({
       if(process.client){
         localStorage.setItem("lang", lang);
       }
-      i18n.locale.value = lang;
+      i18nTs.locale.value = lang;
     };
 
     const currentLanguage = (lang) => {
-      return i18n.locale.value === lang;
+      return i18nTs.locale.value === lang;
     };
 
     const currentLangugeLocale = computed(() => {
-      return countries[i18n.locale.value];
+      return countries[i18nTs.locale.value];
     });
 
     return {
