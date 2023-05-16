@@ -34,7 +34,7 @@
     <!--begin::Aside-->
     <div
       class="d-flex flex-lg-row-fluid w-lg-50 bgi-size-cover bgi-position-center order-1 order-lg-2"
-      style="background-image: url('media/misc/auth-bg.png')"
+      style="background-image: url('/media/misc/auth-bg.png')"
     >
       <!--begin::Content-->
       <div
@@ -44,7 +44,7 @@
         <router-link to="/" class="mb-0 mb-lg-12">
           <img
             alt="Logo"
-            src="media/logos/custom-1.png"
+            src="/media/logos/custom-1.png"
             class="h-60px h-lg-75px"
           />
         </router-link>
@@ -53,7 +53,7 @@
         <!--begin::Image-->
         <img
           class="d-none d-lg-block mx-auto w-275px w-md-50 w-xl-500px mb-10 mb-lg-20"
-          src="media/misc/auth-screens.png"
+          src="/media/misc/auth-screens.png"
           alt=""
         />
         <!--end::Image-->

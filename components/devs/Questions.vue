@@ -100,7 +100,7 @@
                 class="svg-icon svg-icon-7"
                 :class="`${question.upvotes ? '' : 'ms-2 me-0'}`"
               >
-                <inline-svg src="media/icons/duotune/arrows/arr062.svg" />
+                <inline-svg src="/media/icons/duotune/arrows/arr062.svg" />
               </span>
             </a>
             <!--end::Upvote-->
@@ -172,12 +172,12 @@ export default defineComponent({
         upvotes: "23",
         icons: [
           {
-            path: "media/icons/duotune/general/gen045.svg",
+            path: "/media/icons/duotune/general/gen045.svg",
             class: "svg-icon-primary",
             tooltip: "New question",
           },
           {
-            path: "media/icons/duotune/communication/com010.svg",
+            path: "/media/icons/duotune/communication/com010.svg",
             class: "svg-icon-danger",
             tooltip: "User replied",
           },
@@ -190,12 +190,12 @@ export default defineComponent({
           "When approx. is the next update for the Laravel version planned? Waiting for the CRUD, 2nd factor etc. features before starting my project. Also can we expect the Laravel + Vue version in the next update ?",
         author: "Sandra Piquet",
         date: "1 day ago",
-        avatar: "media/avatars/300-2.jpg",
+        avatar: "/media/avatars/300-2.jpg",
         answers: "2",
         upvotes: "4",
         icons: [
           {
-            path: "media/icons/duotune/general/gen044.svg",
+            path: "/media/icons/duotune/general/gen044.svg",
             class: "svg-icon-warning",
             tooltip: "In-process",
           },
@@ -213,7 +213,7 @@ export default defineComponent({
         upvotes: "",
         icons: [
           {
-            path: "media/icons/duotune/general/gen044.svg",
+            path: "/media/icons/duotune/general/gen044.svg",
             class: "svg-icon-warning",
             tooltip: "In-process",
           },
@@ -226,12 +226,12 @@ export default defineComponent({
           "Your Metronic theme is so good but the reactjs version is typescript only. The description did not write any warn about it. Since I only know javascript, I can not do anything with your theme. I want to refund.",
         author: "Alex Bold",
         date: "1 day ago",
-        avatar: "media/avatars/300-23.jpg",
+        avatar: "/media/avatars/300-23.jpg",
         answers: "22",
         upvotes: "11",
         icons: [
           {
-            path: "media/icons/duotune/general/gen043.svg",
+            path: "/media/icons/duotune/general/gen043.svg",
             class: "svg-icon-success",
             tooltip: "Resolved",
           },
@@ -249,7 +249,7 @@ export default defineComponent({
         upvotes: "3",
         icons: [
           {
-            path: "media/icons/duotune/general/gen043.svg",
+            path: "/media/icons/duotune/general/gen043.svg",
             class: "svg-icon-success",
             tooltip: "In-process",
           },
@@ -262,12 +262,12 @@ export default defineComponent({
           "When approx. is the next update for the Laravel version planned? Waiting for the CRUD, 2nd factor etc. features before starting my project. Also can we expect the Laravel + Vue version in the next update ?",
         author: "Ana Quil",
         date: "5 days ago",
-        avatar: "media/avatars/300-10.jpg",
+        avatar: "/media/avatars/300-10.jpg",
         answers: "2",
         upvotes: "4",
         icons: [
           {
-            path: "media/icons/duotune/general/gen043.svg",
+            path: "/media/icons/duotune/general/gen043.svg",
             class: "svg-icon-success",
             tooltip: "Resolved",
           },

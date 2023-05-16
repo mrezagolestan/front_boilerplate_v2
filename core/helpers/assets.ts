@@ -10,5 +10,5 @@ export const getIllustrationsPath = (illustrationName: string): string => {
     const illustration = ( themeStore.getThemeMode() == "dark" ) ?
         `${illustrationName.substring(0,illustrationName.lastIndexOf("."))}-dark` :
         illustrationName.substring(0, illustrationName.lastIndexOf("."));
-    return `media/illustrations/${illustrationsSet.value}/${illustration}${extension}`;
+    return `/media/illustrations/${illustrationsSet.value}/${illustration}${extension}`;
 };

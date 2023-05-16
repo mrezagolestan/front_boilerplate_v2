@@ -18,7 +18,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="media/icons/duotune/arrows/arr061.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
             </span>
           </div>
           <!--end::Close-->
@@ -161,7 +161,7 @@ export default defineComponent({
   setup() {
     const users = [
       {
-        avatar: "media/avatars/300-6.jpg",
+        avatar: "/media/avatars/300-6.jpg",
         name: "Emma Smith",
         email: "e.smith@kpmg.com.au",
         position: "Art Director",
@@ -175,21 +175,21 @@ export default defineComponent({
         sales: "50,500",
       },
       {
-        avatar: "media/avatars/300-1.jpg",
+        avatar: "/media/avatars/300-1.jpg",
         name: "Max Smith",
         email: "max@kt.com",
         position: "Software Enginer",
         sales: "75,900",
       },
       {
-        avatar: "media/avatars/300-1.jpg",
+        avatar: "/media/avatars/300-1.jpg",
         name: "Sean Bean",
         email: "sean@dellito.com",
         position: "Web Developer",
         sales: "10,500",
       },
       {
-        avatar: "media/avatars/300-25.jpg",
+        avatar: "/media/avatars/300-25.jpg",
         name: "Brian Cox",
         email: "brian@exchange.com",
         position: "UI/UX Designer",
@@ -203,7 +203,7 @@ export default defineComponent({
         sales: "9,300",
       },
       {
-        avatar: "media/avatars/300-9.jpg",
+        avatar: "/media/avatars/300-9.jpg",
         name: "Francis Mitcham",
         email: "f.mitcham@kpmg.com.au",
         position: "Software Arcitect",
@@ -224,7 +224,7 @@ export default defineComponent({
         sales: "45,000",
       },
       {
-        avatar: "media/avatars/300-23.jpg",
+        avatar: "/media/avatars/300-23.jpg",
         name: "Dan Wilson",
         email: "dam@consilting.com",
         position: "Web Desinger",
@@ -238,7 +238,7 @@ export default defineComponent({
         sales: "5,000",
       },
       {
-        avatar: "media/avatars/300-12.jpg",
+        avatar: "/media/avatars/300-12.jpg",
         name: "Ana Crown",
         email: "ana.cf@limtel.com",
         position: "Customer Relationship",

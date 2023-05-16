@@ -19,7 +19,7 @@
           id="kt_aside_toggle"
         >
           <span class="svg-icon svg-icon-1">
-            <inline-svg src="media/icons/duotune/abstract/abs015.svg" />
+            <inline-svg src="/media/icons/duotune/abstract/abs015.svg" />
           </span>
         </div>
         <!--end::Aside mobile toggle-->
@@ -28,12 +28,12 @@
         <a href="#">
           <img
             alt="Logo"
-            src="media/logos/demo5.svg"
+            src="/media/logos/demo5.svg"
             class="d-none d-lg-inline h-30px"
           />
           <img
             alt="Logo"
-            src="media/logos/demo5-mobile.svg"
+            src="/media/logos/demo5-mobile.svg"
             class="d-lg-none h-25px"
           />
         </a>

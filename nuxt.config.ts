@@ -29,9 +29,9 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: 'Test',
-            // script: [
-            //     {src: "/js/bootstrap.min.js", type: 'text/javascript'},
-            // ],
+            script: [
+                {src: "/js/bootstrap.min.js", type: 'text/javascript'},
+            ],
         }
     },
     env: {

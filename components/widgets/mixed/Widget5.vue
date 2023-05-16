@@ -19,7 +19,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="media/icons/duotune/general/gen024.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
           </span>
         </button>
         <Dropdown3></Dropdown3>
@@ -53,7 +53,7 @@
             <div class="symbol symbol-50px me-3">
               <div class="symbol-label bg-light">
                 <img
-                  src="media/svg/brand-logos/plurk.svg"
+                  src="/media/svg/brand-logos/plurk.svg"
                   alt=""
                   class="h-50"
                 />
@@ -88,7 +88,7 @@
             <div class="symbol symbol-50px me-3">
               <div class="symbol-label bg-light">
                 <img
-                  src="media/svg/brand-logos/figma-1.svg"
+                  src="/media/svg/brand-logos/figma-1.svg"
                   alt=""
                   class="h-50"
                 />
@@ -121,7 +121,7 @@
             <div class="symbol symbol-50px me-3">
               <div class="symbol-label bg-light">
                 <img
-                  src="media/svg/brand-logos/vimeo.svg"
+                  src="/media/svg/brand-logos/vimeo.svg"
                   alt=""
                   class="h-50"
                 />

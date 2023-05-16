@@ -11,7 +11,7 @@
           <div class="d-flex flex-center flex-column mb-5">
             <!--begin::Avatar-->
             <div class="symbol symbol-100px symbol-circle mb-7">
-              <img src="media/avatars/300-1.jpg" alt="image" />
+              <img src="/media/avatars/300-1.jpg" alt="image" />
             </div>
             <!--end::Avatar-->
 
@@ -37,7 +37,7 @@
                 <div class="fs-4 fw-bold text-gray-700">
                   <span class="w-75px">6,900</span>
                   <span class="svg-icon svg-icon-3 svg-icon-success">
-                    <inline-svg src="media/icons/duotune/arrows/arr066.svg" />
+                    <inline-svg src="/media/icons/duotune/arrows/arr066.svg" />
                   </span>
                 </div>
                 <div class="fw-semobold text-muted">Earnings</div>
@@ -51,7 +51,7 @@
                 <div class="fs-4 fw-bold text-gray-700">
                   <span class="w-50px">130</span>
                   <span class="svg-icon svg-icon-3 svg-icon-danger">
-                    <inline-svg src="media/icons/duotune/arrows/arr065.svg" />
+                    <inline-svg src="/media/icons/duotune/arrows/arr065.svg" />
                   </span>
                 </div>
                 <div class="fw-semobold text-muted">Tasks</div>
@@ -65,7 +65,7 @@
                 <div class="fs-4 fw-bold text-gray-700">
                   <span class="w-50px">500</span>
                   <span class="svg-icon svg-icon-3 svg-icon-success">
-                    <inline-svg src="media/icons/duotune/arrows/arr066.svg" />
+                    <inline-svg src="/media/icons/duotune/arrows/arr066.svg" />
                   </span>
                 </div>
                 <div class="fw-semobold text-muted">Hours</div>
@@ -89,7 +89,7 @@
               Details
               <span class="ms-2 rotate-180">
                 <span class="svg-icon svg-icon-3">
-                  <inline-svg src="media/icons/duotune/arrows/arr072.svg" />
+                  <inline-svg src="/media/icons/duotune/arrows/arr072.svg" />
                 </span>
               </span>
             </div>
@@ -173,7 +173,7 @@
             class="notice d-flex bg-light-primary rounded border-primary border border-dashed mb-9 p-6"
           >
             <span class="svg-icon svg-icon-2tx svg-icon-primary me-4">
-              <inline-svg src="media/icons/duotune/art/art006.svg" />
+              <inline-svg src="/media/icons/duotune/art/art006.svg" />
             </span>
             <!--begin::Wrapper-->
             <div class="d-flex flex-stack flex-grow-1">
@@ -196,7 +196,7 @@
             <div class="d-flex flex-stack">
               <div class="d-flex">
                 <img
-                  src="media/svg/brand-logos/google-icon.svg"
+                  src="/media/svg/brand-logos/google-icon.svg"
                   class="w-30px me-6"
                   alt=""
                 />
@@ -245,7 +245,7 @@
             <div class="d-flex flex-stack">
               <div class="d-flex">
                 <img
-                  src="media/svg/brand-logos/github.svg"
+                  src="/media/svg/brand-logos/github.svg"
                   class="w-30px me-6"
                   alt=""
                 />
@@ -294,7 +294,7 @@
             <div class="d-flex flex-stack">
               <div class="d-flex">
                 <img
-                  src="media/svg/brand-logos/slack-icon.svg"
+                  src="/media/svg/brand-logos/slack-icon.svg"
                   class="w-30px me-6"
                   alt=""
                 />
@@ -401,7 +401,7 @@
           >
             Actions
             <span class="svg-icon svg-icon-2 me-0">
-              <inline-svg src="media/icons/duotune/arrows/arr072.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr072.svg" />
             </span>
           </a>
           <Dropdown3></Dropdown3>

@@ -15,7 +15,7 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="media/icons/duotune/general/gen060.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen060.svg" />
           </span>
         </span>
         <span class="menu-title">Light</span>
@@ -32,7 +32,7 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="media/icons/duotune/general/gen061.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen061.svg" />
           </span>
         </span>
         <span class="menu-title">Dark</span>
@@ -49,7 +49,7 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="media/icons/duotune/general/gen062.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen062.svg" />
           </span>
         </span>
         <span class="menu-title">System</span>

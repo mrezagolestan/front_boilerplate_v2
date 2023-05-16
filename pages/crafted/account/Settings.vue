@@ -1498,7 +1498,7 @@
           class="notice d-flex bg-light-primary rounded border-primary border border-dashed mb-9 p-6"
         >
           <span class="svg-icon svg-icon-2tx svg-icon-primary me-4">
-            <inline-svg src="media/icons/duotune/art/art006.svg" />
+            <inline-svg src="/media/icons/duotune/art/art006.svg" />
           </span>
 
           <!--begin::Wrapper-->
@@ -1522,7 +1522,7 @@
           <div class="d-flex flex-stack">
             <div class="d-flex">
               <img
-                src="media/svg/brand-logos/google-icon.svg"
+                src="/media/svg/brand-logos/google-icon.svg"
                 class="w-30px me-6"
                 alt=""
               />
@@ -1556,7 +1556,7 @@
           <div class="d-flex flex-stack">
             <div class="d-flex">
               <img
-                src="media/svg/brand-logos/github.svg"
+                src="/media/svg/brand-logos/github.svg"
                 class="w-30px me-6"
                 alt=""
               />
@@ -1590,7 +1590,7 @@
           <div class="d-flex flex-stack">
             <div class="d-flex">
               <img
-                src="media/svg/brand-logos/slack-icon.svg"
+                src="/media/svg/brand-logos/slack-icon.svg"
                 class="w-30px me-6"
                 alt=""
               />
@@ -2174,7 +2174,7 @@
             class="notice d-flex bg-light-warning rounded border-warning border border-dashed mb-9 p-6"
           >
             <span class="svg-icon svg-icon-2tx svg-icon-warning me-4">
-              <inline-svg src="media/icons/duotune/general/gen044.svg" />
+              <inline-svg src="/media/icons/duotune/general/gen044.svg" />
             </span>
             <!--begin::Wrapper-->
             <div class="d-flex flex-stack flex-grow-1">
@@ -2314,7 +2314,7 @@ export default defineComponent({
     });
 
     const profileDetails = ref<ProfileDetails>({
-      avatar: "media/avatars/300-1.jpg",
+      avatar: "/media/avatars/300-1.jpg",
       name: "Max",
       surname: "Smith",
       company: "Keenthemes",
@@ -2435,7 +2435,7 @@ export default defineComponent({
     };
 
     const removeImage = () => {
-      profileDetails.value.avatar = "media/avatars/blank.png";
+      profileDetails.value.avatar = "/media/avatars/blank.png";
     };
 
     return {

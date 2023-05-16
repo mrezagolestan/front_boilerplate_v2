@@ -6,7 +6,7 @@
         <!--begin::Search-->
         <div class="d-flex align-items-center position-relative my-1">
           <span class="svg-icon svg-icon-1 position-absolute ms-6">
-            <inline-svg src="media/icons/duotune/general/gen021.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen021.svg" />
           </span>
           <input
             type="text"
@@ -35,7 +35,7 @@
             data-bs-target="#kt_customers_export_modal"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="media/icons/duotune/arrows/arr078.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr078.svg" />
             </span>
             Export
           </button>
@@ -48,7 +48,7 @@
             data-bs-target="#kt_modal_add_customer"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="media/icons/duotune/arrows/arr075.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr075.svg" />
             </span>
             Add Customer
           </button>
@@ -136,7 +136,7 @@
             data-kt-menu-flip="top-end"
             >Actions
             <span class="svg-icon svg-icon-5 m-0">
-              <inline-svg src="media/icons/duotune/arrows/arr072.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr072.svg" />
             </span>
           </a>
           <!--begin::Menu-->

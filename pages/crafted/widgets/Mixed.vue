@@ -107,7 +107,7 @@
     <div class="col-xl-4">
       <MixedWidget8
         widget-classes="card-xl-stretch mb-xl-8"
-        image="media/svg/brand-logos/plurk.svg"
+        image="/media/svg/brand-logos/plurk.svg"
         color="danger"
         title="Monthly Subscription"
         date="Due: 27 Apr 2020"
@@ -120,7 +120,7 @@
     <div class="col-xl-4">
       <MixedWidget8
         widget-classes="card-xl-stretch mb-xl-8"
-        image="media/svg/brand-logos/vimeo.svg"
+        image="/media/svg/brand-logos/vimeo.svg"
         color="primary"
         title="Monthly Subscription"
         date="Due: 27 Apr 2020"
@@ -133,7 +133,7 @@
     <div class="col-xl-4">
       <MixedWidget8
         widget-classes="card-xl-stretch mb-5 mb-xl-8"
-        image="media/svg/brand-logos/kickstarter.svg"
+        image="/media/svg/brand-logos/kickstarter.svg"
         color="success"
         title="Monthly Subscription"
         date="Due: 27 Apr 2020"
@@ -150,7 +150,7 @@
     <div class="col-xl-4">
       <MixedWidget9
         widget-classes="card-xl-stretch mb-xl-8"
-        image="media/svg/brand-logos/plurk.svg"
+        image="/media/svg/brand-logos/plurk.svg"
         time="7 hours ago"
         title="PitStop - Multiple Email Generator"
         description="Pitstop creates quick email campaigns.<br/>
@@ -164,7 +164,7 @@
     <div class="col-xl-4">
       <MixedWidget9
         widget-classes="card-xl-stretch mb-xl-8"
-        image="media/svg/brand-logos/telegram.svg"
+        image="/media/svg/brand-logos/telegram.svg"
         time="10 days ago"
         title="ReactJS Admin Theme"
         description="Pitstop creates quick email campaigns.<br/>
@@ -178,7 +178,7 @@
     <div class="col-xl-4">
       <MixedWidget9
         widget-classes="card-xl-stretch mb-5 mb-xl-8"
-        image="media/svg/brand-logos/vimeo.svg"
+        image="/media/svg/brand-logos/vimeo.svg"
         time="2 weeks ago"
         title="KT.com - High Quality Templates"
         description="Easy to use, incredibly flexible and secure<br/>

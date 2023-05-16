@@ -9,7 +9,7 @@
         <div class="d-flex align-items-center flex-grow-1">
           <!--begin::Avatar-->
           <div class="symbol symbol-45px me-5">
-            <img src="media/avatars/300-6.jpg" alt="" />
+            <img src="/media/avatars/300-6.jpg" alt="" />
           </div>
           <!--end::Avatar-->
 
@@ -37,7 +37,7 @@
             data-kt-menu-flip="top-end"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="media/icons/duotune/general/gen024.svg" />
+              <inline-svg src="/media/icons/duotune/general/gen024.svg" />
             </span>
           </button>
           <Dropdown2></Dropdown2>
@@ -96,7 +96,7 @@
 
 <script lang="ts">
 import { defineComponent, onMounted } from "vue";
-import Quill from "quill/dist/quill.js";
+//import Quill from "quill/dist/quill.js";
 import Dropdown2 from "@/components/dropdown/Dropdown2.vue";
 
 export default defineComponent({
@@ -109,20 +109,23 @@ export default defineComponent({
   },
   setup() {
     onMounted(() => {
-      const editorId = "kt_forms_widget_1_editor";
-
-      // init editor
-      const options = {
-        modules: {
-          toolbar: {
-            container: "#kt_forms_widget_1_editor_toolbar",
-          },
-        },
-        theme: "snow",
-      };
-
-      // Init editor
-      new Quill("#" + editorId, options);
+      // const editorId = "kt_forms_widget_1_editor";
+      //
+      // // init editor
+      // const options = {
+      //   modules: {
+      //     toolbar: {
+      //       container: "#kt_forms_widget_1_editor_toolbar",
+      //     },
+      //   },
+      //   theme: "snow",
+      // };
+      //
+      //
+      // if (process.client){
+      //   // Init editor
+      //   new Quill("#" + editorId, options);
+      // }
     });
   },
 });

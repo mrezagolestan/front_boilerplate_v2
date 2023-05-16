@@ -25,7 +25,7 @@
             data-kt-menu-flip="top-end"
           >
             <span class="svg-icon svg-icon-5 svg-icon-gray-500 me-1">
-              <inline-svg src="media/icons/duotune/general/gen031.svg" />
+              <inline-svg src="/media/icons/duotune/general/gen031.svg" />
             </span>
             Filter
           </a>

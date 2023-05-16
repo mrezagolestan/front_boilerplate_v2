@@ -16,7 +16,7 @@
         <div class="d-flex" :class="[tutorials.length - 1 !== i && 'mb-5']">
           <!--begin::Arrow-->
           <span class="svg-icon svg-icon-2 mt-0 me-2">
-            <inline-svg src="media/icons/duotune/general/gen057.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen057.svg" />
           </span>
           <!--end::Arrow-->
 

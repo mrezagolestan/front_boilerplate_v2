@@ -1,5 +1,6 @@
 import { createI18n } from "vue-i18n";
 
+
 export default defineNuxtPlugin((nuxtApp) => {
   const messages = {
     en: {

@@ -383,7 +383,7 @@ class MenuComponent {
       return
     }
 
-    // Hide all currently shown dropdowns except current one
+    // Hide all currently shown dropdowns except current one2
     MenuComponent.hideDropdowns(item)
 
     // const toggle = this._isTriggerElement(item) ? item : this._getItemLinkElement(item);
@@ -893,7 +893,7 @@ class MenuComponent {
     return null
   }
 
-  // Hide all dropdowns and skip one if provided
+  // Hide all dropdowns and skip one2 if provided
   public static hideDropdowns = (skip: HTMLElement | undefined) => {
     const items = document.querySelectorAll<HTMLElement>(
       '.show.menu-dropdown[data-kt-menu-trigger]'

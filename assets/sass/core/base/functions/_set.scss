@@ -29,8 +29,8 @@
 		$maps: append($maps, $current-get);
 	}
 	
-	// Loop from the last map to the first one
-	// Merge it with the previous one
+	// Loop from the last map to the first one2
+	// Merge it with the previous one2
 	@for $i from length($maps) through 1 {
 		$current-map: nth($maps, $i);
 		$current-key: nth($keys, $i);

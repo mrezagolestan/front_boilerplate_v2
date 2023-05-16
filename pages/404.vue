@@ -16,12 +16,12 @@
           <!--begin::Illustration-->
           <div class="mb-3">
             <img
-              src="media/auth/404-error.png"
+              src="/media/auth/404-error.png"
               class="mw-100 mh-300px theme-light-show"
               alt=""
             />
             <img
-              src="media/auth/404-error-dark.png"
+              src="/media/auth/404-error-dark.png"
               class="mw-100 mh-300px theme-dark-show"
               alt=""
             />
@@ -74,7 +74,7 @@ export default defineComponent({
       bodyStore.addBodyClassName("bg-body");
       bodyStore.addBodyAttribute({
         qualifiedName: "style",
-        value: `background-image: url("media/auth/${bgImage}")`,
+        value: `background-image: url("/media/auth/${bgImage}")`,
       });
     });
 

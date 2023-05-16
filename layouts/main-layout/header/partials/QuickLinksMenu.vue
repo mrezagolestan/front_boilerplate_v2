@@ -7,7 +7,7 @@
     <!--begin::Heading-->
     <div
       class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10"
-      style="background-image: url('media/misc/menu-header-bg.jpg')"
+      style="background-image: url('/media/misc/menu-header-bg.jpg')"
     >
       <!--begin::Title-->
       <h3 class="text-white fw-semobold mb-3">Quick Links</h3>
@@ -28,7 +28,7 @@
           class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom"
         >
           <span class="svg-icon svg-icon-3x svg-icon-success mb-2">
-            <inline-svg src="media/icons/duotune/finance/fin009.svg" />
+            <inline-svg src="/media/icons/duotune/finance/fin009.svg" />
           </span>
           <span class="fs-5 fw-semobold text-gray-800 mb-0">Accounting</span>
           <span class="fs-7 text-gray-400">eCommerce</span>
@@ -43,7 +43,7 @@
           class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-bottom"
         >
           <span class="svg-icon svg-icon-3x svg-icon-success mb-2">
-            <inline-svg src="media/icons/duotune/communication/com010.svg" />
+            <inline-svg src="/media/icons/duotune/communication/com010.svg" />
           </span>
           <span class="fs-5 fw-semobold text-gray-800 mb-0"
             >Administration</span
@@ -60,7 +60,7 @@
           class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end"
         >
           <span class="svg-icon svg-icon-3x svg-icon-success mb-2">
-            <inline-svg src="media/icons/duotune/abstract/abs042.svg" />
+            <inline-svg src="/media/icons/duotune/abstract/abs042.svg" />
           </span>
           <span class="fs-5 fw-semobold text-gray-800 mb-0">Projects</span>
           <span class="fs-7 text-gray-400">Pending Tasks</span>
@@ -75,7 +75,7 @@
           class="d-flex flex-column flex-center h-100 p-6 bg-hover-light"
         >
           <span class="svg-icon svg-icon-3x svg-icon-success mb-2">
-            <inline-svg src="media/icons/duotune/finance/fin006.svg" />
+            <inline-svg src="/media/icons/duotune/finance/fin006.svg" />
           </span>
           <span class="fs-5 fw-semobold text-gray-800 mb-0">Customers</span>
           <span class="fs-7 text-gray-400">Latest cases</span>
@@ -90,7 +90,7 @@
       <a href="#" class="btn btn-color-gray-600 btn-active-color-primary">
         View All
         <span class="svg-icon svg-icon-5">
-          <inline-svg src="media/icons/duotune/arrows/arr064.svg" />
+          <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
         </span>
       </a>
     </div>

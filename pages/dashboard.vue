@@ -69,22 +69,22 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({layout: "main"});
+definePageMeta({layout: 'main'})
 useSeoMeta({title: 'Dashboard'})
 </script>
 <script lang="ts">
 import {defineComponent} from "vue";
-import TableWidget9 from "@/components/widgets/tables/Widget9.vue";
-import TableWidget5 from "@/components/widgets/tables/Widget5.vue";
-import ListWidget1 from "@/components/widgets/lists/Widget1.vue";
-import ListWidget2 from "@/components/widgets/lists/Widget2.vue";
-import ListWidget3 from "@/components/widgets/lists/Widget3.vue";
-import ListWidget5 from "@/components/widgets/lists/Widget5.vue";
-import ListWidget6 from "@/components/widgets/lists/Widget6.vue";
-import MixedWidget2 from "@/components/widgets/mixed/Widget2.vue";
-import MixedWidget5 from "@/components/widgets/mixed/Widget5.vue";
-import MixedWidget7 from "@/components/widgets/mixed/Widget7.vue";
-import MixedWidget10 from "@/components/widgets/mixed/Widget10.vue";
+import TableWidget9 from "~/components/widgets/tables/Widget9.vue";
+import TableWidget5 from "~/components/widgets/tables/Widget5.vue";
+import ListWidget1 from "~/components/widgets/lists/Widget1.vue";
+import ListWidget2 from "~/components/widgets/lists/Widget2.vue";
+import ListWidget3 from "~/components/widgets/lists/Widget3.vue";
+import ListWidget5 from "~/components/widgets/lists/Widget5.vue";
+import ListWidget6 from "~/components/widgets/lists/Widget6.vue";
+import MixedWidget2 from "~/components/widgets/mixed/Widget2.vue";
+import MixedWidget5 from "~/components/widgets/mixed/Widget5.vue";
+import MixedWidget7 from "~/components/widgets/mixed/Widget7.vue";
+import MixedWidget10 from "~/components/widgets/mixed/Widget10.vue";
 
 export default defineComponent({
   name: "main-dashboard",

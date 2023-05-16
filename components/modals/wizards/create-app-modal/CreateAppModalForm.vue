@@ -56,7 +56,7 @@
                 <span class="symbol symbol-50px me-6">
                   <span class="symbol-label bg-light-primary">
                     <span class="svg-icon svg-icon-1 svg-icon-primary">
-                      <inline-svg src="media/icons/duotune/maps/map004.svg" />
+                      <inline-svg src="/media/icons/duotune/maps/map004.svg" />
                     </span>
                   </span>
                 </span>
@@ -96,7 +96,7 @@
                   <span class="symbol-label bg-light-danger">
                     <span class="svg-icon svg-icon-1 svg-icon-danger">
                       <inline-svg
-                        src="media/icons/duotune/general/gen024.svg"
+                        src="/media/icons/duotune/general/gen024.svg"
                       />
                     </span>
                   </span>
@@ -137,7 +137,7 @@
                   <span class="symbol-label bg-light-success">
                     <span class="svg-icon svg-icon-1 svg-icon-success">
                       <inline-svg
-                        src="media/icons/duotune/general/gen013.svg"
+                        src="/media/icons/duotune/general/gen013.svg"
                       />
                     </span>
                   </span>
@@ -558,14 +558,14 @@
 
             <!--begin::Card logos-->
             <div class="position-absolute translate-middle-y top-50 end-0 me-5">
-              <img src="media/svg/card-logos/visa.svg" alt="" class="h-25px" />
+              <img src="/media/svg/card-logos/visa.svg" alt="" class="h-25px" />
               <img
-                src="media/svg/card-logos/mastercard.svg"
+                src="/media/svg/card-logos/mastercard.svg"
                 alt=""
                 class="h-25px"
               />
               <img
-                src="media/svg/card-logos/american-express.svg"
+                src="/media/svg/card-logos/american-express.svg"
                 alt=""
                 class="h-25px"
               />
@@ -673,7 +673,7 @@
                 class="position-absolute translate-middle-y top-50 end-0 me-3"
               >
                 <span class="svg-icon svg-icon-2hx">
-                  <inline-svg src="media/icons/duotune/finance/fin002.svg" />
+                  <inline-svg src="/media/icons/duotune/finance/fin002.svg" />
                 </span>
               </div>
               <!--end::CVV icon-->
@@ -755,7 +755,7 @@
           @click="previousStep()"
         >
           <span class="svg-icon svg-icon-3 me-1">
-            <inline-svg src="media/icons/duotune/arrows/arr063.svg" />
+            <inline-svg src="/media/icons/duotune/arrows/arr063.svg" />
           </span>
           Back
         </button>
@@ -773,7 +773,7 @@
           <span class="indicator-label">
             Submit
             <span class="svg-icon svg-icon-3 ms-2 me-0">
-              <inline-svg src="media/icons/duotune/arrows/arr064.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
             </span>
           </span>
           <span class="indicator-progress">
@@ -787,7 +787,7 @@
         <button v-else type="submit" class="btn btn-lg btn-primary">
           Continue
           <span class="svg-icon svg-icon-3 ms-1 me-0">
-            <inline-svg src="media/icons/duotune/arrows/arr064.svg" />
+            <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
           </span>
         </button>
       </div>

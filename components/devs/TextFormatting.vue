@@ -29,13 +29,13 @@
         <b>&lt;blockquote&gt;&lt;/blockquote&gt;</b>&nbsp;to quote somebody
       </li>
       <li class="py-1 fs-6">
-        <img alt="happy" src="media/smiles/happy.png" />&nbsp;&nbsp;:)
+        <img alt="happy" src="/media/smiles/happy.png" />&nbsp;&nbsp;:)
       </li>
       <li class="py-1 fs-6">
-        <img alt="shocked" src="media/smiles/shocked.png" />&nbsp;&nbsp;:|
+        <img alt="shocked" src="/media/smiles/shocked.png" />&nbsp;&nbsp;:|
       </li>
       <li class="py-1 fs-6">
-        <img alt="sad" src="media/smiles/sad.png" />&nbsp;&nbsp;:(
+        <img alt="sad" src="/media/smiles/sad.png" />&nbsp;&nbsp;:(
       </li>
     </ul>
   </div>

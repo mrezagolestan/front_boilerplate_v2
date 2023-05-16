@@ -13,7 +13,7 @@
       <div class="d-flex align-items-center">
         <span class="ms-1" data-bs-toggle="tooltip" title="User replied">
           <span class="svg-icon svg-icon-success svg-icon-1">
-            <inline-svg src="media/icons/duotune/general/gen043.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen043.svg" />
           </span>
         </span>
       </div>
@@ -92,7 +92,7 @@
           data-bs-dismiss="click"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="media/icons/duotune/general/gen056.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen056.svg" />
           </span>
         </a>
 
@@ -105,7 +105,7 @@
         >
           23
           <span class="svg-icon svg-icon-7 ms-1 me-1">
-            <inline-svg src="media/icons/duotune/arrows/arr062.svg" />
+            <inline-svg src="/media/icons/duotune/arrows/arr062.svg" />
           </span>
         </a>
       </div>

@@ -31,7 +31,7 @@
       <button type="button" class="btn btn-light-primary fw-bold w-100 mb-10">
         <img
           alt="Logo"
-          src="media/svg/brand-logos/google-icon.svg"
+          src="/media/svg/brand-logos/google-icon.svg"
           class="h-20px me-3"
         />
         Sign in with Google

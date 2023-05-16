@@ -18,7 +18,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="media/icons/duotune/arrows/arr061.svg" />
+              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
             </span>
           </div>
           <!--end::Close-->
@@ -46,7 +46,7 @@
           <div class="btn btn-light-primary fw-bold w-100 mb-8">
             <img
               alt="Logo"
-              src="media/svg/brand-logos/google-icon.svg"
+              src="/media/svg/brand-logos/google-icon.svg"
               class="h-20px me-3"
             />
             Invite Gmail Contacts
@@ -185,7 +185,7 @@ export default defineComponent({
   setup() {
     const users = [
       {
-        avatar: "media/avatars/300-6.jpg",
+        avatar: "/media/avatars/300-6.jpg",
         name: "Emma Smith",
         email: "e.smith@kpmg.com.au",
         access: "1",
@@ -197,19 +197,19 @@ export default defineComponent({
         access: "1",
       },
       {
-        avatar: "media/avatars/300-1.jpg",
+        avatar: "/media/avatars/300-1.jpg",
         name: "Max Smith",
         email: "max@kt.com",
         access: "3",
       },
       {
-        avatar: "media/avatars/300-1.jpg",
+        avatar: "/media/avatars/300-1.jpg",
         name: "Sean Bean",
         email: "sean@dellito.com",
         access: "2",
       },
       {
-        avatar: "media/avatars/300-25.jpg",
+        avatar: "/media/avatars/300-25.jpg",
         name: "Brian Cox",
         email: "brian@exchange.com",
         access: "3",
@@ -221,7 +221,7 @@ export default defineComponent({
         access: "2",
       },
       {
-        avatar: "media/avatars/300-9.jpg",
+        avatar: "/media/avatars/300-9.jpg",
         name: "Francis Mitcham",
         email: "f.mitcham@kpmg.com.au",
         access: "3",
@@ -239,7 +239,7 @@ export default defineComponent({
         access: "1",
       },
       {
-        avatar: "media/avatars/300-23.jpg",
+        avatar: "/media/avatars/300-23.jpg",
         name: "Dan Wilson",
         email: "dam@consilting.com",
         access: "3",
@@ -251,7 +251,7 @@ export default defineComponent({
         access: "2",
       },
       {
-        avatar: "media/avatars/300-12.jpg",
+        avatar: "/media/avatars/300-12.jpg",
         name: "Ana Crown",
         email: "ana.cf@limtel.com",
         access: "1",
@@ -263,7 +263,7 @@ export default defineComponent({
         access: "3",
       },
       {
-        avatar: "media/avatars/300-13.jpg",
+        avatar: "/media/avatars/300-13.jpg",
         name: "John Miller",
         email: "miller@mapple.com",
         access: "3",
@@ -275,13 +275,13 @@ export default defineComponent({
         access: "2",
       },
       {
-        state: "media/avatars/300-21.jpg",
+        state: "/media/avatars/300-21.jpg",
         name: "Ethan Wilder",
         email: "ethan@loop.com.au",
         access: "1",
       },
       {
-        state: "media/avatars/300-12.jpg",
+        state: "/media/avatars/300-12.jpg",
         name: "Ana Crown",
         email: "ana.cf@limtel.com",
         access: "3",

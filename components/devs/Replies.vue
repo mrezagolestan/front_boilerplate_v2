@@ -69,7 +69,7 @@
                     reply.upvotes ? '' : 'mx-2 me-0'
                   }`"
                 >
-                  <inline-svg src="media/icons/duotune/arrows/arr062.svg" />
+                  <inline-svg src="/media/icons/duotune/arrows/arr062.svg" />
                 </span>
               </a>
               <!--end::Upvote-->
@@ -143,7 +143,7 @@ export default defineComponent({
           "I’ve been doing some ajax request, to populate a inside drawer, the content of that drawer has a sub menu, that you are using in list and all card toolbar.",
         author: "Sandra Piquet",
         date: "24 minutes ago",
-        avatar: "media/avatars/300-2.jpg",
+        avatar: "/media/avatars/300-2.jpg",
         upvotes: "",
         indent: "",
       },
@@ -161,7 +161,7 @@ export default defineComponent({
           "I’ve been doing some ajax request, to populate a inside drawer, the content of that drawer has a sub menu, that you are using in list and all card toolbar.",
         author: "Sandra Piquet",
         date: "24 minutes ago",
-        avatar: "media/avatars/300-12.jpg",
+        avatar: "/media/avatars/300-12.jpg",
         upvotes: "6",
         indent: "",
       },
@@ -179,7 +179,7 @@ export default defineComponent({
           "I’ve been doing some ajax request, to populate a inside drawer, the content of that drawer has a sub menu, that you are using in list and all card toolbar.",
         author: "Niko Roseberg",
         date: "1 day ago",
-        avatar: "media/avatars/300-20.jpg",
+        avatar: "/media/avatars/300-20.jpg",
         upvotes: "",
         indent: "",
       },

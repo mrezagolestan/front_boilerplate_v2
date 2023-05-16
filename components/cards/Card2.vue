@@ -33,7 +33,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-3 svg-icon-primary">
-            <inline-svg src="media/icons/duotune/general/gen024.svg" />
+            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
           </span>
         </button>
 

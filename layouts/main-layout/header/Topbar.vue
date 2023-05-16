@@ -15,7 +15,7 @@
         id="kt_activities_toggle"
       >
         <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotune/general/gen032.svg" />
+          <inline-svg src="/media/icons/duotune/general/gen032.svg" />
         </span>
       </div>
       <!--end::drawer toggle-->
@@ -33,7 +33,7 @@
         data-kt-menu-flip="bottom"
       >
         <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotune/general/gen025.svg" />
+          <inline-svg src="/media/icons/duotune/general/gen025.svg" />
         </span>
       </div>
       <KTQuickLinksMenu></KTQuickLinksMenu>
@@ -49,7 +49,7 @@
         id="kt_drawer_chat_toggle"
       >
         <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotune/communication/com012.svg" />
+          <inline-svg src="/media/icons/duotune/communication/com012.svg" />
         </span>
 
         <span
@@ -72,7 +72,7 @@
         data-kt-menu-flip="bottom"
       >
         <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotune/general/gen022.svg" />
+          <inline-svg src="/media/icons/duotune/general/gen022.svg" />
         </span>
       </div>
       <KTNotificationsMenu></KTNotificationsMenu>
@@ -91,10 +91,10 @@
         data-kt-menu-placement="bottom-end"
       >
         <span class="svg-icon theme-light-show svg-icon-1">
-          <inline-svg src="media/icons/duotune/general/gen060.svg" />
+          <inline-svg src="/media/icons/duotune/general/gen060.svg" />
         </span>
         <span class="svg-icon theme-dark-show svg-icon-1">
-          <inline-svg src="media/icons/duotune/general/gen061.svg" />
+          <inline-svg src="/media/icons/duotune/general/gen061.svg" />
         </span>
       </a>
       <!--begin::Menu toggle-->
@@ -125,7 +125,7 @@
 
         <!--begin::Symbol-->
         <div class="symbol symbol-30px symbol-md-40px">
-          <img src="media/avatars/300-1.jpg" alt="image" />
+          <img src="/media/avatars/300-1.jpg" alt="image" />
         </div>
         <!--end::Symbol-->
       </div>
@@ -145,7 +145,7 @@
         id="kt_header_menu_mobile_toggle"
       >
         <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotune/text/txt001.svg" />
+          <inline-svg src="/media/icons/duotune/text/txt001.svg" />
         </span>
       </div>
     </div>

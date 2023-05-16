@@ -8,12 +8,12 @@
       >
         <span class="svg-icon svg-icon-primary position-absolute opacity-15">
           <inline-svg
-            src="media/icons/duotune/abstract/abs051.svg"
+            src="/media/icons/duotune/abstract/abs051.svg"
             class="h-80px w-80px"
           />
         </span>
         <span class="svg-icon svg-icon-3x svg-icon-primary position-absolute">
-          <inline-svg src="media/icons/duotune/coding/cod009.svg" />
+          <inline-svg src="/media/icons/duotune/coding/cod009.svg" />
         </span>
       </div>
       <!--end::Icon-->
@@ -183,7 +183,7 @@
                       </span>
                       <span
                         style="
-                          background-image: url('media/illustrations/sketchy-1/1.png');
+                          background-image: url('/media/illustrations/sketchy-1/1.png');
                         "
                         class="d-block h-200px w-100 bgi-no-repeat bgi-size-contain bgi-position-center"
                       ></span>
@@ -211,7 +211,7 @@
                       </span>
                       <span
                         style="
-                          background-image: url('media/illustrations/sigma-1/1.png');
+                          background-image: url('/media/illustrations/sigma-1/1.png');
                         "
                         class="d-block h-200px w-100 bgi-no-repeat bgi-size-contain bgi-position-center"
                       ></span>
@@ -239,7 +239,7 @@
                       </span>
                       <span
                         style="
-                          background-image: url('media/illustrations/dozzy-1/1.png');
+                          background-image: url('/media/illustrations/dozzy-1/1.png');
                         "
                         class="d-block h-200px w-100 bgi-no-repeat bgi-size-contain bgi-position-center"
                       ></span>
@@ -267,7 +267,7 @@
                       </span>
                       <span
                         style="
-                          background-image: url('media/illustrations/unitedpalms-1/1.png');
+                          background-image: url('/media/illustrations/unitedpalms-1/1.png');
                         "
                         class="d-block h-200px w-100 bgi-no-repeat bgi-size-contain bgi-position-center"
                       ></span>

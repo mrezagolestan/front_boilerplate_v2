@@ -16,12 +16,12 @@
           <!--begin::Illustration-->
           <div class="mb-11">
             <img
-              src="media/auth/500-error.png"
+              src="/media/auth/500-error.png"
               class="mw-100 mh-300px theme-light-show"
               alt=""
             />
             <img
-              src="media/auth/500-error-dark.png"
+              src="/media/auth/500-error-dark.png"
               class="mw-100 mh-300px theme-dark-show"
               alt=""
             />
@@ -73,7 +73,7 @@ export default defineComponent({
       bodyStore.removeBodyClassName("bg-body");
       bodyStore.addBodyAttribute({
         qualifiedName: "style",
-        value: `background-image: url("media/auth/${bgImage}")`,
+        value: `background-image: url("/media/auth/${bgImage}")`,
       });
 
     });
