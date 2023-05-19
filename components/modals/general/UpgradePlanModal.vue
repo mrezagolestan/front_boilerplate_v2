@@ -18,7 +18,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->
@@ -197,9 +197,7 @@
                               <span
                                 class="svg-icon svg-icon-1 svg-icon-success"
                               >
-                                <inline-svg
-                                  src="/media/icons/duotune/general/gen043.svg"
-                                />
+                                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen043.svg" /></ClientOnly>
                               </span>
                             </template>
                             <template v-else>
@@ -209,9 +207,7 @@
                                 {{ feature.title }}
                               </span>
                               <span class="svg-icon svg-icon-1">
-                                <inline-svg
-                                  src="/media/icons/duotune/general/gen040.svg"
-                                />
+                                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen040.svg" /></ClientOnly>
                               </span>
                             </template>
                           </div>

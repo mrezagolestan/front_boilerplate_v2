@@ -7,12 +7,12 @@
         <!--begin::Head-->
         <div class="d-flex align-items-center mb-4">
           <!--begin::Title-->
-          <router-link
+          <NuxtLink
             to="/apps/devs/question"
             class="fs-2 fw-bold text-gray-900 text-hover-primary me-1"
           >
             {{ question.title }}
-          </router-link>
+          </NuxtLink>
           <!--end::Title-->
 
           <!--begin::Icons-->
@@ -20,7 +20,7 @@
             <template v-for="(icon, i) in question.icons" :key="i">
               <span class="ms-1" data-bs-toggle="tooltip" :title="icon.tooltop">
                 <span :class="`svg-icon svg-icon-1 ${icon.class}`">
-                  <inline-svg :src="icon.path" />
+                  <ClientOnly><inline-svg :src="icon.path" /></ClientOnly>
                 </span>
               </span>
             </template>
@@ -100,7 +100,7 @@
                 class="svg-icon svg-icon-7"
                 :class="`${question.upvotes ? '' : 'ms-2 me-0'}`"
               >
-                <inline-svg src="/media/icons/duotune/arrows/arr062.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr062.svg" /></ClientOnly>
               </span>
             </a>
             <!--end::Upvote-->

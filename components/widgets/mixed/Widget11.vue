@@ -15,7 +15,7 @@
           data-kt-menu-placement="bottom-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown3></Dropdown3>

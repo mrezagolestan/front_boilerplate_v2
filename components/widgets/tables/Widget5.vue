@@ -95,9 +95,7 @@
                     >
                       <!--begin::Svg Icon | path: -->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -136,9 +134,7 @@
                     >
                       <!--begin::Svg Icon | path: -->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -179,9 +175,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -220,9 +214,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -261,9 +253,7 @@
                     >
                       <span class="svg-icon svg-icon-2">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                         <!--end::Svg Icon-->
                       </span>
                     </a>
@@ -330,9 +320,7 @@
                     >
                       <span class="svg-icon svg-icon-2">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                         <!--end::Svg Icon-->
                       </span>
                     </a>
@@ -371,9 +359,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -412,9 +398,7 @@
                     >
                       <span class="svg-icon svg-icon-2">
                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                         <!--end::Svg Icon-->
                       </span>
                     </a>
@@ -481,9 +465,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -522,9 +504,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -565,9 +545,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>
@@ -606,9 +584,7 @@
                     >
                       <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                       <span class="svg-icon svg-icon-2">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                       <!--end::Svg Icon-->
                     </a>

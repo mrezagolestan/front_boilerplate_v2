@@ -28,7 +28,7 @@
         <template v-for="(menuItem, j) in item.pages" :key="j">
           <template v-if="menuItem.heading">
             <div class="menu-item">
-              <router-link
+              <NuxtLink
                 class="menu-link"
                 active-class="active"
                 :to="menuItem.route"
@@ -46,13 +46,13 @@
                     v-else-if="asideMenuIcons === 'svg'"
                     class="svg-icon svg-icon-2"
                   >
-                    <inline-svg :src="menuItem.svgIcon" />
+                    <ClientOnly><inline-svg :src="menuItem.svgIcon" /></ClientOnly>
                   </span>
                 </span>
                 <span class="menu-title">{{
                   translate(menuItem.heading)
                 }}</span>
-              </router-link>
+              </NuxtLink>
             </div>
           </template>
           <div
@@ -76,7 +76,7 @@
                   v-else-if="asideMenuIcons === 'svg'"
                   class="svg-icon svg-icon-2"
                 >
-                  <inline-svg :src="menuItem.svgIcon" />
+                  <ClientOnly><inline-svg :src="menuItem.svgIcon" /></ClientOnly>
                 </span>
               </span>
               <span class="menu-title">{{
@@ -90,7 +90,7 @@
             >
               <template v-for="(item2, k) in menuItem.sub" :key="k">
                 <div v-if="item2.heading" class="menu-item">
-                  <router-link
+                  <NuxtLink
                     class="menu-link"
                     active-class="active"
                     :to="item2.route"
@@ -101,7 +101,7 @@
                     <span class="menu-title">{{
                       translate(item2.heading)
                     }}</span>
-                  </router-link>
+                  </NuxtLink>
                 </div>
                 <div
                   v-if="item2.sectionTitle"
@@ -125,7 +125,7 @@
                   >
                     <template v-for="(item3, k) in item2.sub" :key="k">
                       <div v-if="item3.heading" class="menu-item">
-                        <router-link
+                        <NuxtLink
                           class="menu-link"
                           active-class="active"
                           :to="item3.route"
@@ -136,7 +136,7 @@
                           <span class="menu-title">{{
                             translate(item3.heading)
                           }}</span>
-                        </router-link>
+                        </NuxtLink>
                       </div>
                     </template>
                   </div>
@@ -165,7 +165,7 @@
               v-else-if="asideMenuIcons === 'svg'"
               class="svg-icon svg-icon-2"
             >
-              <inline-svg src="/media/icons/duotune/general/gen005.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen005.svg" /></ClientOnly>
             </span>
           </span>
           <span class="menu-title"

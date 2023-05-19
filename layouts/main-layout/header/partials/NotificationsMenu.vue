@@ -68,7 +68,7 @@
                       :class="`svg-icon-${item.state}`"
                       class="svg-icon svg-icon-2"
                     >
-                      <inline-svg :src="item.icon" />
+                      <ClientOnly><inline-svg :src="item.icon" /></ClientOnly>
                     </span>
                   </span>
                 </div>
@@ -103,7 +103,7 @@
           <a href="#" class="btn btn-color-gray-600 btn-active-color-primary">
             View All
             <span class="svg-icon svg-icon-5">
-              <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
             </span>
           </a>
         </div>
@@ -199,7 +199,7 @@
           <a href="#" class="btn btn-color-gray-600 btn-active-color-primary">
             View All
             <span class="svg-icon-svg-icon-5">
-              <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
             </span>
           </a>
         </div>

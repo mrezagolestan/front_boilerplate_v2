@@ -13,7 +13,7 @@
           />
         </span>
         <span class="svg-icon svg-icon-3x svg-icon-primary position-absolute">
-          <inline-svg src="/media/icons/duotune/coding/cod009.svg" />
+          <ClientOnly><inline-svg src="/media/icons/duotune/coding/cod009.svg"  /></ClientOnly>
         </span>
       </div>
       <!--end::Icon-->

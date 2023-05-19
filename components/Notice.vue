@@ -16,7 +16,8 @@
       v-if="icon"
       :class="`svg-icon svg-icon-2tx svg-icon-${color} me-4 ms-15 ms-lg-15`"
     >
-      <inline-svg :src="icon" />
+      <ClientOnly><inline-svg :src="icon" /></ClientOnly>
+
     </span>
     <!--end::Icon-->
 

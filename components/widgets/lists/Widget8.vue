@@ -19,7 +19,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown3></Dropdown3>
@@ -73,7 +73,7 @@
 
               <a href="#" class="btn btn-icon btn-light btn-sm border-0">
                 <span class="svg-icon-2 svg-icon-primary">
-                  <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg"  /></ClientOnly>
                 </span>
               </a>
             </div>

@@ -40,46 +40,46 @@
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" active-class="active" class="menu-link">
+          <NuxtLink to="/apps/devs/tag" active-class="active" class="menu-link">
             <span class="menu-title">All Questions</span>
             <span class="menu-badge">6,234</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link
+          <NuxtLink
             to="/apps/devs/search"
             active-class="active"
             class="menu-link"
           >
             <span class="menu-title">Search</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link
+          <NuxtLink
             to="/apps/devs/tag"
             active-class="active"
             class="menu-link"
           >
             <span class="menu-title">Tags</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link
+          <NuxtLink
             to="/apps/devs/ask"
             active-class="active"
             class="menu-link"
           >
             <span class="menu-title">Ask Question</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
@@ -95,37 +95,37 @@
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">My Questions</span>
             <span class="menu-badge">24</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Resolved</span>
             <span class="menu-badge">120</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Enrolled</span>
             <span class="menu-badge">10</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Saved</span>
             <span class="menu-badge">6</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
@@ -141,46 +141,46 @@
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Metronic Admin</span>
             <span class="menu-badge">1,400</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Backend Integration</span>
             <span class="menu-badge">235</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Suggestions</span>
             <span class="menu-badge">25</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Pre-sale Questions</span>
             <span class="menu-badge">145</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
         <!--begin::Menu item-->
         <div class="menu-item">
-          <router-link to="/dashboard" class="menu-link">
+          <NuxtLink to="/dashboard" class="menu-link">
             <span class="menu-title">Laravel Starter Kit</span>
             <span class="menu-badge">750</span>
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Menu item-->
 
@@ -188,37 +188,37 @@
         <div class="collapse" id="kt_aside_categories_more">
           <!--begin::Menu item-->
           <div class="menu-item">
-            <router-link to="/dashboard" class="menu-link">
+            <NuxtLink to="/dashboard" class="menu-link">
               <span class="menu-title">Blazor Integration</span>
               <span class="menu-badge">100</span>
-            </router-link>
+            </NuxtLink>
           </div>
           <!--end::Menu item-->
 
           <!--begin::Menu item-->
           <div class="menu-item">
-            <router-link to="/dashboard" class="menu-link">
+            <NuxtLink to="/dashboard" class="menu-link">
               <span class="menu-title">Django Dashboard</span>
               <span class="menu-badge">90</span>
-            </router-link>
+            </NuxtLink>
           </div>
           <!--end::Menu item-->
 
           <!--begin::Menu item-->
           <div class="menu-item">
-            <router-link to="/dashboard" class="menu-link">
+            <NuxtLink to="/dashboard" class="menu-link">
               <span class="menu-title">Rails CRUD</span>
               <span class="menu-badge">14</span>
-            </router-link>
+            </NuxtLink>
           </div>
           <!--end::Menu item-->
 
           <!--begin::Menu item-->
           <div class="menu-item">
-            <router-link to="/dashboard" class="menu-link">
+            <NuxtLink to="/dashboard" class="menu-link">
               <span class="menu-title">.NET Starter Kit</span>
               <span class="menu-badge">30</span>
-            </router-link>
+            </NuxtLink>
           </div>
           <!--end::Menu item-->
         </div>
@@ -227,7 +227,7 @@
         <!--begin::Heading-->
         <div class="menu-item">
           <div class="menu-link">
-            <router-link
+            <NuxtLink
               to="/dashboard"
               class="menu-title text-muted fs-7"
               id="kt_aside_categories_toggle"
@@ -235,7 +235,7 @@
               data-bs-target="#kt_aside_categories_more"
             >
               More Categories
-            </router-link>
+            </NuxtLink>
           </div>
         </div>
         <!--end::Heading-->

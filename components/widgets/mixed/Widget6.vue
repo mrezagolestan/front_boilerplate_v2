@@ -19,7 +19,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown1></Dropdown1>
@@ -41,7 +41,7 @@
               <div class="symbol symbol-50px me-3">
                 <div class="symbol-label bg-light-info">
                   <span class="svg-icon svg-icon-1 svg-icon-info">
-                    <inline-svg src="/media/icons/duotune/art/art007.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/art/art007.svg"  /></ClientOnly>
                   </span>
                 </div>
               </div>
@@ -64,7 +64,7 @@
               <div class="symbol symbol-50px me-3">
                 <div class="symbol-label bg-light-danger">
                   <span class="svg-icon svg-icon-1 svg-icon-danger">
-                    <inline-svg src="/media/icons/duotune/abstract/abs027.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs027.svg"  /></ClientOnly>
                   </span>
                 </div>
               </div>
@@ -91,9 +91,7 @@
               <div class="symbol symbol-50px me-3">
                 <div class="symbol-label bg-light-success">
                   <span class="svg-icon svg-icon-1 svg-icon-success">
-                    <inline-svg
-                      src="/media/icons/duotune/ecommerce/ecm002.svg"
-                    />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/ecommerce/ecm002.svg" /></ClientOnly>
                   </span>
                 </div>
               </div>
@@ -116,9 +114,7 @@
               <div class="symbol symbol-50px me-3">
                 <div class="symbol-label bg-light-primary">
                   <span class="svg-icon svg-icon-1 svg-icon-primary">
-                    <inline-svg
-                      src="/media/icons/duotune/ecommerce/ecm010.svg"
-                    />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/ecommerce/ecm010.svg" /></ClientOnly>
                   </span>
                 </div>
               </div>

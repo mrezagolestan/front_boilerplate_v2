@@ -9,7 +9,7 @@
     <div class="timeline-icon symbol symbol-circle symbol-40px">
       <div class="symbol-label bg-light">
         <span class="svg-icon svg-icon-2 svg-icon-gray-500">
-          <inline-svg src="/media/icons/duotune/communication/com009.svg" />
+          <ClientOnly><inline-svg src="/media/icons/duotune/communication/com009.svg" /></ClientOnly>
         </span>
       </div>
     </div>

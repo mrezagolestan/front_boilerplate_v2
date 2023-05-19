@@ -24,7 +24,7 @@
             id="kt_activities_close"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </button>
         </div>
@@ -64,7 +64,7 @@
       <div class="card-footer py-5 text-center" id="kt_activities_footer">
         <a href="#" class="btn btn-bg-body text-primary">
           View All Activities<span class="svg-icon svg-icon-3 svg-icon-primary">
-            <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
           </span>
         </a>
       </div>

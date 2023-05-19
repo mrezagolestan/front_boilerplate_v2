@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
     modules: [
-        '@pinia/nuxt',
+        '@pinia/nuxt','@vee-validate/nuxt',
     ],
     css: [
         "bootstrap-icons/font/bootstrap-icons.css",
@@ -25,7 +25,17 @@ export default defineNuxtConfig({
         "@/assets/sass/style.scss",
 
     ],
-
+    veeValidate: {
+        // disable or enable auto imports
+        autoImports: true,
+        // Use different names for components
+        componentNames: {
+            Form: 'VeeForm',
+            Field: 'VeeField',
+            FieldArray: 'VeeFieldArray',
+            ErrorMessage: 'VeeErrorMessage',
+        },
+    },
     app: {
         head: {
             title: 'Test',
@@ -43,7 +53,22 @@ export default defineNuxtConfig({
             vue: {
                 prettify: false
             }
-        }
-
+        },
+        terser: {
+            // https://github.com/terser/terser#compress-options
+            terserOptions: {
+                compress: {
+                    drop_console: false
+                }
+            }
+        },
+        build: {
+            transpile: ["class-validator"],
+        },
+        vite: {
+            optimizeDeps: {
+                exclude: ['class-validator']
+            }
+        },
     }
 });

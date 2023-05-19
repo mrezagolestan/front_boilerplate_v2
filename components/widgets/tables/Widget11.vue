@@ -13,7 +13,7 @@
       <div class="card-toolbar">
         <a href="#" class="btn btn-sm btn-light-primary">
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/arrows/arr075.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr075.svg"  /></ClientOnly>
           </span>
           New Member
         </a>
@@ -115,9 +115,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen019.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
                     </span>
                   </a>
 
@@ -126,7 +124,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg src="/media/icons/duotune/art/art005.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg"  /></ClientOnly>
                     </span>
                   </a>
 
@@ -135,9 +133,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen027.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
                     </span>
                   </a>
                 </td>

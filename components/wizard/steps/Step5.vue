@@ -10,8 +10,8 @@
       <!--begin::Notice-->
       <div class="text-gray-400 fw-semobold fs-6">
         If you need more info, please
-        <router-link to="/sign-in" class="link-primary fw-bold"
-          >Sign In</router-link
+        <NuxtLink to="/sign-in" class="link-primary fw-bold"
+          >Sign In</NuxtLink
         >.
       </div>
       <!--end::Notice-->
@@ -34,7 +34,7 @@
       >
         <!--begin::Icon-->
         <span class="svg-icon svg-icon-2tx svg-icon-warning me-4">
-          <inline-svg src="/media/icons/duotune/general/gen044.svg" />
+          <ClientOnly><inline-svg src="/media/icons/duotune/general/gen044.svg"  /></ClientOnly>
         </span>
         <!--end::Icon-->
         <!--begin::Wrapper-->

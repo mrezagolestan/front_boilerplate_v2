@@ -15,7 +15,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown3></Dropdown3>
@@ -38,7 +38,7 @@
           <!--begin::Icon-->
           <span :class="`svg-icon-${item.color}`" class="svg-icon me-5">
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/abstract/abs027.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs027.svg"  /></ClientOnly>
             </span>
           </span>
           <!--end::Icon-->

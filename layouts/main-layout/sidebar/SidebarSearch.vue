@@ -13,7 +13,7 @@
     <span
       class="svg-icon svg-icon-2 svg-icon-gray-700 position-absolute top-50 translate-middle-y ms-4"
     >
-      <inline-svg src="/media/icons/duotune/general/gen021.svg" />
+      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen021.svg" /></ClientOnly>
     </span>
     <!--end::Icon-->
 

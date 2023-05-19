@@ -9,7 +9,7 @@
     <div class="timeline-icon symbol symbol-circle symbol-40px">
       <div class="symbol-label bg-light">
         <span class="svg-icon svg-icon-2 svg-icon-gray-500">
-          <inline-svg src="/media/icons/duotune/art/art005.svg" />
+          <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg" /></ClientOnly>
         </span>
       </div>
     </div>
@@ -52,7 +52,7 @@
         >
           <!--begin::Icon-->
           <span class="svg-icon svg-icon-2tx svg-icon-primary me-4">
-            <inline-svg src="/media/icons/duotune/coding/cod004.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/coding/cod004.svg" /></ClientOnly>
           </span>
           <!--end::Icon-->
 

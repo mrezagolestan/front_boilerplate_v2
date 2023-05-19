@@ -34,7 +34,7 @@
                 >
                 <a href="#">
                   <span class="svg-icon svg-icon-1 svg-icon-primary">
-                    <inline-svg src="/media/icons/duotune/general/gen026.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/general/gen026.svg" /></ClientOnly>
                   </span>
                 </a>
               </div>
@@ -47,9 +47,7 @@
                   class="d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2"
                 >
                   <span class="svg-icon svg-icon-4 me-1">
-                    <inline-svg
-                      src="/media/icons/duotune/communication/com006.svg"
-                    />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/communication/com006.svg"/></ClientOnly>
                   </span>
                   Developer
                 </a>
@@ -58,7 +56,7 @@
                   class="d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2"
                 >
                   <span class="svg-icon svg-icon-4 me-1">
-                    <inline-svg src="/media/icons/duotune/general/gen018.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/general/gen018.svg" /></ClientOnly>
                   </span>
                   SF, Bay Area
                 </a>
@@ -67,9 +65,7 @@
                   class="d-flex align-items-center text-gray-400 text-hover-primary mb-2"
                 >
                   <span class="svg-icon svg-icon-4 me-1">
-                    <inline-svg
-                      src="/media/icons/duotune/communication/com011.svg"
-                    />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/communication/com011.svg" /></ClientOnly>
                   </span>
                   max@kt.com
                 </a>
@@ -86,7 +82,7 @@
                 id="kt_user_follow_button"
               >
                 <span class="svg-icon svg-icon-3 d-none">
-                  <inline-svg src="/media/icons/duotune/arrows/arr012.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr012.svg" /></ClientOnly>
                 </span>
                 Follow
               </a>
@@ -130,7 +126,7 @@
                   <!--begin::Number-->
                   <div class="d-flex align-items-center">
                     <span class="svg-icon svg-icon-3 svg-icon-success me-2">
-                      <inline-svg src="/media/icons/duotune/arrows/arr066.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr066.svg" /></ClientOnly>
                     </span>
                     <div
                       class="fs-2 fw-bold"
@@ -156,7 +152,7 @@
                   <!--begin::Number-->
                   <div class="d-flex align-items-center">
                     <span class="svg-icon svg-icon-3 svg-icon-danger me-2">
-                      <inline-svg src="/media/icons/duotune/arrows/arr065.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr065.svg" /></ClientOnly>
                     </span>
                     <div
                       class="fs-2 fw-bold"
@@ -181,7 +177,7 @@
                   <!--begin::Number-->
                   <div class="d-flex align-items-center">
                     <span class="svg-icon svg-icon-3 svg-icon-success me-2">
-                      <inline-svg src="/media/icons/duotune/arrows/arr066.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr066.svg" /></ClientOnly>
                     </span>
                     <div
                       class="fs-2 fw-bold"
@@ -241,68 +237,68 @@
         >
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               to="/crafted/pages/profile/overview"
               class="nav-link text-active-primary me-6"
               active-class="active"
             >
               Overview
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               class="nav-link text-active-primary me-6"
               to="/crafted/pages/profile/projects"
               active-class="active"
             >
               Projects
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               class="nav-link text-active-primary me-6"
               to="/crafted/pages/profile/campaigns"
               active-class="active"
             >
               Campaigns
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               class="nav-link text-active-primary me-6"
               to="/crafted/pages/profile/documents"
               active-class="active"
             >
               Documents
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               class="nav-link text-active-primary me-6"
               to="/crafted/pages/profile/connections"
               active-class="active"
             >
               Connections
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
           <!--begin::Nav item-->
           <li class="nav-item">
-            <router-link
+            <NuxtLink
               class="nav-link text-active-primary me-6"
               to="/crafted/pages/profile/activity"
               active-class="active"
             >
               Activity
-            </router-link>
+            </NuxtLink>
           </li>
           <!--end::Nav item-->
         </ul>

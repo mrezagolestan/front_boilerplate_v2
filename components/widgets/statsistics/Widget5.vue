@@ -4,7 +4,7 @@
     <!--begin::Body-->
     <div class="card-body">
       <span :class="`svg-icon-${iconColor}`" class="svg-icon svg-icon-3x mx-n1">
-        <inline-svg :src="svgIcon" />
+        <ClientOnly><inline-svg :src="svgIcon" /></ClientOnly>
       </span>
 
       <div :class="`text-inverse-${color}`" class="fw-bold fs-2 mb-2 mt-5">

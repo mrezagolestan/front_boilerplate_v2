@@ -15,7 +15,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown3></Dropdown3>
@@ -44,13 +44,13 @@
         <div class="row m-0">
           <div class="col bg-light-warning px-6 py-8 rounded-2 me-7 mb-7">
             <span class="svg-icon svg-icon-3x svg-icon-warning d-block my-2">
-              <inline-svg src="/media/icons/duotune/general/gen032.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen032.svg"  /></ClientOnly>
             </span>
             <a href="#" class="text-warning fw-semobold fs-6"> Weekly Sales </a>
           </div>
           <div class="col bg-light-primary px-6 py-8 rounded-2 mb-7">
             <span class="svg-icon svg-icon-3x svg-icon-primary d-block my-2">
-              <inline-svg src="/media/icons/duotune/arrows/arr075.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr075.svg"  /></ClientOnly>
             </span>
             <a href="#" class="text-primary fw-semobold fs-6"> New Users </a>
           </div>
@@ -60,7 +60,7 @@
         <div class="row m-0">
           <div class="col bg-light-danger px-6 py-8 rounded-2 me-7">
             <span class="svg-icon svg-icon-3x svg-icon-danger d-block my-2">
-              <inline-svg src="/media/icons/duotune/abstract/abs027.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs027.svg"  /></ClientOnly>
             </span>
             <a href="#" class="text-danger fw-semobold fs-6 mt-2">
               Item Orders
@@ -68,7 +68,7 @@
           </div>
           <div class="col bg-light-success px-6 py-8 rounded-2">
             <span class="svg-icon svg-icon-3x svg-icon-success d-block my-2">
-              <inline-svg src="/media/icons/duotune/communication/com010.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/communication/com010.svg"  /></ClientOnly>
             </span>
             <a href="#" class="text-success fw-semobold fs-6 mt-2">
               Bug Reports

@@ -14,9 +14,9 @@
         <!--begin::Header-->
         <div class="d-flex flex-center py-10 py-lg-20 mt-lg-20">
           <!--begin::Logo-->
-          <router-link to="/">
+          <NuxtLink to="/">
             <img alt="Logo" src="/media/logos/custom-1.png" class="h-70px" />
-          </router-link>
+          </NuxtLink>
           <!--end::Logo-->
         </div>
         <!--end::Header-->
@@ -209,7 +209,7 @@
                   @click="previousStep"
                 >
                   <span class="svg-icon svg-icon-4 me-1">
-                    <inline-svg src="/media/icons/duotune/arrows/arr063.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr063.svg"  /></ClientOnly>
                   </span>
                   Back
                 </button>
@@ -228,7 +228,7 @@
                   <span class="indicator-label">
                     Submit
                     <span class="svg-icon svg-icon-3 ms-2 me-0">
-                      <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg"  /></ClientOnly>
                     </span>
                   </span>
                   <span class="indicator-progress">
@@ -242,7 +242,7 @@
                 <button v-else type="submit" class="btn btn-lg btn-primary">
                   Continue
                   <span class="svg-icon svg-icon-4 ms-1 me-0">
-                    <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg"  /></ClientOnly>
                   </span>
                 </button>
               </div>

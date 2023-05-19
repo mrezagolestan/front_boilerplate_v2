@@ -18,7 +18,7 @@
           data-kt-menu-flip="top-end"
         >
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
           </span>
         </button>
         <Dropdown2></Dropdown2>
@@ -140,9 +140,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen019.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
                     </span>
                   </a>
 
@@ -151,7 +149,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg src="/media/icons/duotune/art/art005.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg"  /></ClientOnly>
                     </span>
                   </a>
 
@@ -160,9 +158,7 @@
                     class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen027.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
                     </span>
                   </a>
                 </td>

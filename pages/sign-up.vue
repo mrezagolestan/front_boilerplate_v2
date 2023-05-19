@@ -19,9 +19,9 @@
         <div class="text-gray-400 fw-semobold fs-4">
           Already have an account?
 
-          <router-link to="/sign-in" class="link-primary fw-bold">
+          <NuxtLink to="/sign-in" class="link-primary fw-bold">
             Sign in here
-          </router-link>
+          </NuxtLink>
         </div>
         <!--end::Link-->
       </div>

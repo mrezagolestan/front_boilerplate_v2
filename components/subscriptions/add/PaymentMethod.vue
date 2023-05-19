@@ -33,10 +33,10 @@
                 class="btn btn-sm btn-icon btn-active-color-primary ms-n3 me-2"
               >
                 <span class="svg-icon toggle-on svg-icon-primary svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen036.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen036.svg" /></ClientOnly>
                 </span>
                 <span class="svg-icon toggle-off svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen035.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen035.svg" /></ClientOnly>
                 </span>
               </div>
 
@@ -139,9 +139,7 @@
                       <td class="text-gray-800">
                         Passed
                         <span class="svg-icon svg-icon-2 svg-icon-success">
-                          <inline-svg
-                            src="/media/icons/duotune/general/gen043.svg"
-                          />
+                          <ClientOnly><inline-svg src="/media/icons/duotune/general/gen043.svg" /></ClientOnly>
                         </span>
                       </td>
                     </tr>
@@ -165,11 +163,11 @@
                 class="btn btn-sm btn-icon btn-active-color-primary ms-n3 me-2"
               >
                 <span class="svg-icon toggle-on svg-icon-primary svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen036.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen036.svg" /></ClientOnly>
                 </span>
 
                 <span class="svg-icon toggle-off svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen035.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen035.svg" /></ClientOnly>
                 </span>
               </div>
 
@@ -265,9 +263,7 @@
                         Passed
 
                         <span class="svg-icon svg-icon-2 svg-icon-success">
-                          <inline-svg
-                            src="/media/icons/duotune/arrows/arr012.svg"
-                          />
+                          <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr012.svg" /></ClientOnly>
                         </span>
                       </td>
                     </tr>
@@ -291,11 +287,11 @@
                 class="btn btn-sm btn-icon btn-active-color-primary ms-n3 me-2"
               >
                 <span class="svg-icon toggle-on svg-icon-primary svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen036.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen036.svg" /></ClientOnly>
                 </span>
 
                 <span class="svg-icon toggle-off svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen035.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen035.svg" /></ClientOnly>
                 </span>
               </div>
 
@@ -396,9 +392,7 @@
                         Failed
 
                         <span class="svg-icon svg-icon-2 svg-icon-danger">
-                          <inline-svg
-                            src="/media/icons/duotune/arrows/arr061.svg"
-                          />
+                          <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
                         </span>
                       </td>
                     </tr>

@@ -18,7 +18,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->

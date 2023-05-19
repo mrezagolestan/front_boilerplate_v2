@@ -61,7 +61,7 @@
                   data-bs-original-title="Delete"
                 >
                   <span class="svg-icon svg-icon-3">
-                    <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
                   </span>
                 </a>
                 <!--end::Delete-->
@@ -82,7 +82,7 @@
                   data-bs-original-title="Delete"
                 >
                   <span class="svg-icon svg-icon-3">
-                    <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
                   </span>
                 </a>
                 <!--end::Delete-->
@@ -103,7 +103,7 @@
                   data-bs-original-title="Delete"
                 >
                   <span class="svg-icon svg-icon-3">
-                    <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
                   </span>
                 </a>
                 <!--end::Delete-->

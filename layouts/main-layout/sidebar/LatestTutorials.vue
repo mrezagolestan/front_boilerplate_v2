@@ -16,17 +16,17 @@
         <div class="d-flex" :class="[tutorials.length - 1 !== i && 'mb-5']">
           <!--begin::Arrow-->
           <span class="svg-icon svg-icon-2 mt-0 me-2">
-            <inline-svg src="/media/icons/duotune/general/gen057.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen057.svg" /></ClientOnly>
           </span>
           <!--end::Arrow-->
 
           <!--begin::Title-->
-          <router-link
+          <NuxtLink
             to="/apps/devs/question"
             class="text-gray-700 text-hover-primary fs-6 fw-semobold"
           >
             {{ tutorial }}
-          </router-link>
+          </NuxtLink>
           <!--end::Title-->
         </div>
         <!--end::Item-->

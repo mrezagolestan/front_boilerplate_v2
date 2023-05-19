@@ -23,7 +23,7 @@
               data-kt-menu-flip="top-end"
             >
               <span class="svg-icon svg-icon-2">
-                <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
               </span>
             </button>
             <Dropdown3></Dropdown3>
@@ -56,7 +56,7 @@
             <div class="symbol symbol-45px w-40px me-5">
               <span class="symbol-label bg-lighten">
                 <span class="svg-icon svg-icon-1">
-                  <inline-svg :src="item.icon" />
+                  <ClientOnly><inline-svg :src="item.icon"  /></ClientOnly>
                 </span>
               </span>
             </div>
@@ -87,13 +87,13 @@
                   v-if="item.arrow === 'up'"
                   class="svg-icon svg-icon-5 svg-icon-success ms-1"
                 >
-                  <inline-svg src="/media/icons/duotune/arrows/arr066.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr066.svg"  /></ClientOnly>
                 </span>
                 <span
                   v-else-if="item.arrow === 'down'"
                   class="svg-icon svg-icon-5 svg-icon-danger ms-1"
                 >
-                  <inline-svg src="/media/icons/duotune/arrows/arr065.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr065.svg"  /></ClientOnly>
                 </span>
               </div>
               <!--end::Label-->

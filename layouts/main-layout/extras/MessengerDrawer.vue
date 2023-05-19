@@ -61,7 +61,7 @@
             id="kt_drawer_chat_close"
           >
             <span class="svg-icon svg-icon-2x">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->

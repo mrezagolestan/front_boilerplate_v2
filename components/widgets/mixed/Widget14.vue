@@ -26,7 +26,7 @@
             <div class="symbol symbol-40px me-3">
               <div class="symbol-label bg-body bg-opacity-50">
                 <span class="svg-icon svg-icon-1 svg-icon-dark">
-                  <inline-svg src="/media/icons/duotune/abstract/abs043.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs043.svg"  /></ClientOnly>
                 </span>
               </div>
             </div>
@@ -49,7 +49,7 @@
             <div class="symbol symbol-40px me-3">
               <div class="symbol-label bg-body bg-opacity-50">
                 <span class="svg-icon svg-icon-1 svg-icon-dark">
-                  <inline-svg src="/media/icons/duotune/abstract/abs046.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs046.svg"  /></ClientOnly>
                 </span>
               </div>
             </div>
@@ -72,7 +72,7 @@
             <div class="symbol symbol-40px me-3">
               <div class="symbol-label bg-body bg-opacity-50">
                 <span class="svg-icon svg-icon-1 svg-icon-dark">
-                  <inline-svg src="/media/icons/duotune/abstract/abs022.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs022.svg"  /></ClientOnly>
                 </span>
               </div>
             </div>
@@ -95,7 +95,7 @@
             <div class="symbol symbol-40px me-3">
               <div class="symbol-label bg-body bg-opacity-50">
                 <span class="svg-icon svg-icon-1 svg-icon-dark">
-                  <inline-svg src="/media/icons/duotune/abstract/abs045.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs045.svg"  /></ClientOnly>
                 </span>
               </div>
             </div>

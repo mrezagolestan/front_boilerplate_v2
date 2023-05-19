@@ -23,7 +23,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->
@@ -126,9 +126,7 @@
                           for="kt_create_account_form_account_type_personal"
                         >
                           <span class="svg-icon svg-icon-3x me-5">
-                            <inline-svg
-                              src="/media/icons/duotune/communication/com005.svg"
-                            />
+                            <ClientOnly><inline-svg src="/media/icons/duotune/communication/com005.svg" /></ClientOnly>
                           </span>
 
                           <!--begin::Info-->
@@ -162,9 +160,7 @@
                           for="kt_create_account_form_account_type_corporate"
                         >
                           <span class="svg-icon svg-icon-3x me-5">
-                            <inline-svg
-                              src="/media/icons/duotune/finance/fin006.svg"
-                            />
+                            <ClientOnly><inline-svg src="/media/icons/duotune/finance/fin006.svg" /></ClientOnly>
                           </span>
 
                           <!--begin::Info-->
@@ -367,9 +363,7 @@
                               <span
                                 class="svg-icon svg-icon-1 svg-icon-gray-600"
                               >
-                                <inline-svg
-                                  src="/media/icons/duotune/finance/fin001.svg"
-                                />
+                                <ClientOnly><inline-svg src="/media/icons/duotune/finance/fin001.svg" /></ClientOnly>
                               </span>
                             </span>
                           </span>
@@ -415,9 +409,7 @@
                               <span
                                 class="svg-icon svg-icon-1 svg-icon-gray-600"
                               >
-                                <inline-svg
-                                  src="/media/icons/duotune/graphs/gra006.svg"
-                                />
+                                <ClientOnly><inline-svg src="/media/icons/duotune/graphs/gra006.svg" /></ClientOnly>
                               </span>
                             </span>
                           </span>
@@ -464,9 +456,7 @@
                               <span
                                 class="svg-icon svg-icon-1 svg-icon-gray-600"
                               >
-                                <inline-svg
-                                  src="/media/icons/duotune/graphs/gra008.svg"
-                                />
+                                <ClientOnly><inline-svg src="/media/icons/duotune/graphs/gra008.svg" /></ClientOnly>
                               </span>
                             </span>
                           </span>
@@ -895,9 +885,7 @@
                           class="position-absolute translate-middle-y top-50 end-0 me-3"
                         >
                           <span class="svg-icon svg-icon-2hx">
-                            <inline-svg
-                              src="/media/icons/duotune/finance/fin002.svg"
-                            />
+                            <ClientOnly><inline-svg src="/media/icons/duotune/finance/fin002.svg"/></ClientOnly>
                           </span>
                         </div>
                         <!--end::CVV icon-->
@@ -961,8 +949,8 @@
                     <!--begin::Notice-->
                     <div class="text-gray-400 fw-semobold fs-6">
                       If you need more info, please
-                      <router-link to="/sign-in" class="link-primary fw-bold"
-                        >Sign In</router-link
+                      <NuxtLink to="/sign-in" class="link-primary fw-bold"
+                        >Sign In</NuxtLink
                       >.
                     </div>
                     <!--end::Notice-->
@@ -986,9 +974,7 @@
                     >
                       <!--begin::Icon-->
                       <span class="svg-icon svg-icon-2tx svg-icon-warning me-4">
-                        <inline-svg
-                          src="/media/icons/duotune/general/gen044.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/general/gen044.svg" /></ClientOnly>
                       </span>
                       <!--end::Icon-->
                       <!--begin::Wrapper-->
@@ -1026,7 +1012,7 @@
                     @click="previousStep()"
                   >
                     <span class="svg-icon svg-icon-3 me-1">
-                      <inline-svg src="/media/icons/duotune/arrows/arr063.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr063.svg" /></ClientOnly>
                     </span>
                     Back
                   </button>
@@ -1044,9 +1030,7 @@
                     <span class="indicator-label">
                       Submit
                       <span class="svg-icon svg-icon-3 ms-2 me-0">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr064.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                       </span>
                     </span>
                     <span class="indicator-progress">
@@ -1060,7 +1044,7 @@
                   <button type="submit" class="btn btn-lg btn-primary" v-else>
                     Continue
                     <span class="svg-icon svg-icon-3 ms-1 me-0">
-                      <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                     </span>
                   </button>
                 </div>

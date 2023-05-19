@@ -25,8 +25,8 @@
       >
         <!--begin::Item-->
         <li class="breadcrumb-item text-muted">
-          <router-link to="/" class="text-muted text-hover-primary"
-            >Home</router-link
+          <NuxtLink to="/" class="text-muted text-hover-primary"
+            >Home</NuxtLink
           >
         </li>
         <!--end::Item-->

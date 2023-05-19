@@ -19,7 +19,7 @@
           data-bs-target="#kt_modal_add_payment"
         >
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen035.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen035.svg" /></ClientOnly>
           </span>
           Add payment
         </button>
@@ -60,7 +60,7 @@
             data-kt-menu-flip="top-end"
             >Actions
             <span class="svg-icon svg-icon-5 m-0">
-              <inline-svg src="/media/icons/duotune/arrows/arr072.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr072.svg" /></ClientOnly>
             </span>
           </a>
           <!--begin::Menu-->
@@ -70,10 +70,10 @@
           >
             <!--begin::Menu item-->
             <div class="menu-item px-3">
-              <router-link
+              <NuxtLink
                 to="/apps/customers/customer-details"
                 class="menu-link px-3"
-                >View</router-link
+                >View</NuxtLink
               >
             </div>
             <!--end::Menu item-->

@@ -11,7 +11,7 @@
         >
           <a class="page-link" @click="onClickFirstPage">
             <span class="svg-icon">
-              <inline-svg src="/media/icons/duotune/arrows/arr079.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr079.svg" /></ClientOnly>
             </span>
           </a>
         </li>
@@ -23,7 +23,7 @@
         >
           <a class="page-link" @click="onClickPreviousPage">
             <span class="svg-icon">
-              <inline-svg src="/media/icons/duotune/arrows/arr074.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr074.svg" /></ClientOnly>
             </span>
           </a>
         </li>
@@ -49,7 +49,7 @@
         >
           <a class="paginate_button page-link" @click="onClickNextPage">
             <span class="svg-icon">
-              <inline-svg src="/media/icons/duotune/arrows/arr071.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr071.svg" /></ClientOnly>
             </span>
           </a>
         </li>
@@ -61,7 +61,7 @@
         >
           <a class="paginate_button page-link" @click="onClickLastPage">
             <span class="svg-icon">
-              <inline-svg src="/media/icons/duotune/arrows/arr080.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr080.svg" /></ClientOnly>
             </span>
           </a>
         </li>

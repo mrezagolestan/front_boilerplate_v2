@@ -80,7 +80,7 @@
                               :class="`svg-icon-${item1.icon.color}`"
                               class="svg-icon svg-icon-2x"
                             >
-                              <inline-svg :src="item1.icon.file" />
+                              <ClientOnly><inline-svg :src="item1.icon.file"  /></ClientOnly>
                             </span>
                           </span>
                         </div>

@@ -22,7 +22,7 @@
             class="btn btn-icon btn-sm btn-active-icon-primary"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->
@@ -127,7 +127,7 @@
                 <span v-if="!loading" class="indicator-label">
                   Submit
                   <span class="svg-icon svg-icon-3 ms-2 me-0">
-                    <inline-svg src="/media/icons/duotune/arrows/arr064.svg" />
+                    <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr064.svg" /></ClientOnly>
                   </span>
                 </span>
                 <span v-if="loading" class="indicator-progress">

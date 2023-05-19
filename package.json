@@ -22,6 +22,8 @@
     "@tinymce/tinymce-vue": "^4.0.4",
     "@types/bootstrap": "^5.2.6",
     "@types/object-path": "^0.11.0",
+    "@vee-validate/nuxt": "^4.9.4",
+    "@vee-validate/yup": "^4.9.4",
     "@vueform/multiselect": "^1.2.5",
     "animate.css": "^4.1.1",
     "apexcharts": "^3.40.0",

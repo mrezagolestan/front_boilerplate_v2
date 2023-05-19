@@ -230,7 +230,7 @@
         <div class="symbol symbol-40px symbol-circle me-4">
           <span class="symbol-label bg-light">
             <span class="svg-icon svg-icon-2 svg-icon-primary">
-              <inline-svg src="/media/icons/duotune/general/gen005.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen005.svg" /></ClientOnly>
             </span>
           </span>
         </div>
@@ -252,7 +252,7 @@
         <div class="symbol symbol-40px symbol-circle me-4">
           <span class="symbol-label bg-light">
             <span class="svg-icon svg-icon-2 svg-icon-primary">
-              <inline-svg src="/media/icons/duotune/general/gen032.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen032.svg" /></ClientOnly>
             </span>
           </span>
         </div>
@@ -274,7 +274,7 @@
         <div class="symbol symbol-40px symbol-circle me-4">
           <span class="symbol-label bg-light">
             <span class="svg-icon svg-icon-2 svg-icon-primary">
-              <inline-svg src="/media/icons/duotune/communication/com012.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/communication/com012.svg" /></ClientOnly>
             </span>
           </span>
         </div>
@@ -298,7 +298,7 @@
         <div class="symbol symbol-40px symbol-circle me-4">
           <span class="symbol-label bg-light">
             <span class="svg-icon svg-icon-2 svg-icon-primary">
-              <inline-svg src="/media/icons/duotune/communication/com006.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/communication/com006.svg" /></ClientOnly>
             </span>
           </span>
         </div>

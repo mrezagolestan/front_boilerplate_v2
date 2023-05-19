@@ -69,7 +69,7 @@
                     reply.upvotes ? '' : 'mx-2 me-0'
                   }`"
                 >
-                  <inline-svg src="/media/icons/duotune/arrows/arr062.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr062.svg" /></ClientOnly>
                 </span>
               </a>
               <!--end::Upvote-->

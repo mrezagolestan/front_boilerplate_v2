@@ -16,7 +16,7 @@
           data-bs-target="#kt_modal_new_card"
         >
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen035.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen035.svg" /></ClientOnly>
           </span>
           Add new method</a
         >
@@ -42,7 +42,7 @@
             <!--begin::Arrow-->
             <div class="me-3 rotate-90">
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/arrows/arr071.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr071.svg" /></ClientOnly>
               </span>
             </div>
             <!--end::Arrow-->
@@ -80,7 +80,7 @@
                 data-bs-original-title="Edit"
               >
                 <span class="svg-icon svg-icon-3">
-                  <inline-svg src="/media/icons/duotune/art/art005.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg" /></ClientOnly>
                 </span>
               </span>
             </a>
@@ -96,7 +96,7 @@
             >
               <!--begin::Svg Icon | path: icons/duotune/general/gen027.svg-->
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
               </span>
             </a>
             <!--end::Delete-->
@@ -111,7 +111,7 @@
               data-bs-original-title="More Options"
             >
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen019.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
               </span>
             </a>
             <!--begin::Menu-->
@@ -213,9 +213,7 @@
                     <td class="text-gray-800">
                       Passed
                       <span class="svg-icon svg-icon-2 svg-icon-success">
-                        <inline-svg
-                          src="/media/icons/duotune/general/gen043.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/general/gen043.svg" /></ClientOnly>
                       </span>
                     </td>
                   </tr>
@@ -246,7 +244,7 @@
             <!--begin::Arrow-->
             <div class="me-3 rotate-90">
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/arrows/arr071.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr071.svg"  /></ClientOnly>
               </span>
             </div>
             <!--end::Arrow-->
@@ -283,7 +281,7 @@
                 data-bs-original-title="Edit"
               >
                 <span class="svg-icon svg-icon-3">
-                  <inline-svg src="/media/icons/duotune/art/art005.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg" /></ClientOnly>
                 </span>
               </span>
             </a>
@@ -298,7 +296,7 @@
               data-bs-original-title="Delete"
             >
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
               </span>
             </a>
             <!--end::Delete-->
@@ -313,7 +311,7 @@
               data-bs-original-title="More Options"
             >
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen019.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
               </span>
             </a>
             <!--begin::Menu-->
@@ -416,9 +414,7 @@
                       Passed
 
                       <span class="svg-icon svg-icon-2 svg-icon-success">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr012.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr012.svg" /></ClientOnly>
                       </span>
                     </td>
                   </tr>
@@ -449,7 +445,7 @@
             <!--begin::Arrow-->
             <div class="me-3 rotate-90">
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/arrows/arr071.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr071.svg" /></ClientOnly>
               </span>
             </div>
             <!--end::Arrow-->
@@ -487,7 +483,7 @@
                 data-bs-original-title="Edit"
               >
                 <span class="svg-icon svg-icon-3">
-                  <inline-svg src="/media/icons/duotune/art/art005.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg" /></ClientOnly>
                 </span>
               </span>
             </a>
@@ -502,7 +498,7 @@
               data-bs-original-title="Delete"
             >
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen027.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen027.svg" /></ClientOnly>
               </span>
             </a>
             <!--end::Delete-->
@@ -517,7 +513,7 @@
               data-bs-original-title="More Options"
             >
               <span class="svg-icon svg-icon-3">
-                <inline-svg src="/media/icons/duotune/general/gen019.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
               </span>
             </a>
             <!--begin::Menu-->
@@ -619,9 +615,7 @@
                       Failed
 
                       <span class="svg-icon svg-icon-2 svg-icon-danger">
-                        <inline-svg
-                          src="/media/icons/duotune/arrows/arr061.svg"
-                        />
+                        <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
                       </span>
                     </td>
                   </tr>

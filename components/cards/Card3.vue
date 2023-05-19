@@ -63,13 +63,13 @@
         <!--begin::Follow-->
         <a v-if="connected" href="#" class="btn btn-sm btn-light-primary">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/arrows/arr012.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr012.svg" /></ClientOnly>
           </span>
           Connected
         </a>
         <a v-else href="#" class="btn btn-sm btn-light">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/arrows/arr075.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr075.svg" /></ClientOnly>
           </span>
           Connect
         </a>

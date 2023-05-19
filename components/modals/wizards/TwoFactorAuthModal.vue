@@ -22,7 +22,7 @@
             data-bs-dismiss="modal"
           >
             <span class="svg-icon svg-icon-1">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </div>
           <!--end::Close-->
@@ -57,7 +57,7 @@
                 for="kt_modal_two_factor_authentication_option_1"
               >
                 <span class="svg-icon svg-icon-4x me-4">
-                  <inline-svg src="/media/icons/duotune/coding/cod001.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/coding/cod001.svg" /></ClientOnly>
                 </span>
 
                 <span class="d-block fw-semobold text-start">
@@ -86,9 +86,7 @@
                 for="kt_modal_two_factor_authentication_option_2"
               >
                 <span class="svg-icon svg-icon-4x me-4">
-                  <inline-svg
-                    src="/media/icons/duotune/communication/com003.svg"
-                  />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/communication/com003.svg" /></ClientOnly>
                 </span>
 
                 <span class="d-block fw-semobold text-start">
@@ -151,7 +149,7 @@
               class="notice d-flex bg-light-warning rounded border-warning border border-dashed mb-10 p-6"
             >
               <span class="svg-icon svg-icon-2tx svg-icon-warning me-4">
-                <inline-svg src="/media/icons/duotune/general/gen044.svg" />
+                <ClientOnly><inline-svg src="/media/icons/duotune/general/gen044.svg" /></ClientOnly>
               </span>
               <!--begin::Wrapper-->
               <div class="d-flex flex-stack flex-grow-1">

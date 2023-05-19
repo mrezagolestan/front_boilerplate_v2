@@ -29,8 +29,8 @@
           <!--end::Illustration-->
           <!--begin::Link-->
           <div class="mb-0">
-            <router-link to="/" class="btn btn-sm btn-primary"
-              >Return Home</router-link
+            <NuxtLink to="/" class="btn btn-sm btn-primary"
+              >Return Home</NuxtLink
             >
           </div>
           <!--end::Link-->

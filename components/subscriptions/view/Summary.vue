@@ -30,7 +30,7 @@
           data-kt-menu-placement="bottom-end"
         >
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen052.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen052.svg" /></ClientOnly>
           </span>
         </a>
         <UserMenu></UserMenu>
@@ -176,13 +176,13 @@
 
       <!--begin::Actions-->
       <div class="mb-0">
-        <router-link
+        <NuxtLink
           to="/subscriptions/add"
           class="btn btn-primary"
           id="kt_subscriptions_create_button"
         >
           Edit Subscription
-        </router-link>
+        </NuxtLink>
       </div>
       <!--end::Actions-->
     </div>

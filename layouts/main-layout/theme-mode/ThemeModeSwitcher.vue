@@ -7,7 +7,7 @@
   >
     <!--begin::Menu item-->
     <div class="menu-item px-3 my-0">
-      <router-link
+      <NuxtLink
         :to="path"
         :class="{ active: themeMode === 'light' }"
         class="menu-link px-3 py-2"
@@ -15,16 +15,16 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen060.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen060.svg" /></ClientOnly>
           </span>
         </span>
         <span class="menu-title">Light</span>
-      </router-link>
+      </NuxtLink>
     </div>
     <!--end::Menu item-->
     <!--begin::Menu item-->
     <div class="menu-item px-3 my-0">
-      <router-link
+      <NuxtLink
         :to="path"
         :class="{ active: themeMode === 'dark' }"
         class="menu-link px-3 py-2"
@@ -32,16 +32,16 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen061.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen061.svg" /></ClientOnly>
           </span>
         </span>
         <span class="menu-title">Dark</span>
-      </router-link>
+      </NuxtLink>
     </div>
     <!--end::Menu item-->
     <!--begin::Menu item-->
     <div class="menu-item px-3 my-0">
-      <router-link
+      <NuxtLink
         :to="path"
         :class="{ active: themeMode === 'system' }"
         class="menu-link px-3 py-2"
@@ -49,11 +49,11 @@
       >
         <span class="menu-icon" data-kt-element="icon">
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/general/gen062.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/general/gen062.svg" /></ClientOnly>
           </span>
         </span>
         <span class="menu-title">System</span>
-      </router-link>
+      </NuxtLink>
     </div>
     <!--end::Menu item-->
   </div>

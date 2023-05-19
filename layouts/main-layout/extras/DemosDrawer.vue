@@ -27,7 +27,7 @@
             id="kt_engage_demos_close"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="/media/icons/duotune/arrows/arr061.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr061.svg" /></ClientOnly>
             </span>
           </button>
         </div>

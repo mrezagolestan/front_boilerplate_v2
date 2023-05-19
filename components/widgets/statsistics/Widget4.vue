@@ -7,7 +7,7 @@
         <span class="symbol symbol-50px me-2">
           <span class="symbol-label">
             <span :class="`svg-icon-${color}`" class="svg-icon svg-icon-2x">
-              <inline-svg :src="svgIcon" />
+              <ClientOnly><inline-svg :src="svgIcon" /></ClientOnly>
             </span>
           </span>
         </span>

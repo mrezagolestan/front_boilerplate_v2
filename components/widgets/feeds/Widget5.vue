@@ -35,7 +35,7 @@
             data-kt-menu-flip="top-end"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="/media/icons/duotune/general/gen024.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen024.svg"  /></ClientOnly>
             </span>
           </button>
 
@@ -69,7 +69,7 @@
             class="btn btn-sm btn-light btn-color-muted btn-active-light-success px-4 py-2 me-4"
           >
             <span class="svg-icon svg-icon-3">
-              <inline-svg src="/media/icons/duotune/communication/com012.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/communication/com012.svg"  /></ClientOnly>
             </span>
             89
           </a>
@@ -79,7 +79,7 @@
             class="btn btn-sm btn-light btn-color-muted btn-active-light-danger px-4 py-2"
           >
             <span class="svg-icon svg-icon-2">
-              <inline-svg src="/media/icons/duotune/general/gen030.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen030.svg"  /></ClientOnly>
             </span>
             29
           </a>
@@ -104,13 +104,13 @@
         <div class="position-absolute top-0 end-0 me-n5">
           <span class="btn btn-icon btn-sm btn-active-color-primary pe-0 me-2">
             <span class="svg-icon svg-icon-3 mb-3">
-              <inline-svg src="/media/icons/duotune/communication/com008.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/communication/com008.svg"  /></ClientOnly>
             </span>
           </span>
 
           <span class="btn btn-icon btn-sm btn-active-color-primary ps-0">
             <span class="svg-icon svg-icon-2 mb-3">
-              <inline-svg src="/media/icons/duotune/general/gen018.svg" />
+              <ClientOnly><inline-svg src="/media/icons/duotune/general/gen018.svg"  /></ClientOnly>
             </span>
           </span>
         </div>

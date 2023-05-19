@@ -23,7 +23,7 @@
         <template v-if="!item.heading">
           <template v-for="(menuItem, j) in item.pages" :key="j">
             <div v-if="menuItem.heading" class="menu-item me-lg-1">
-              <router-link
+              <NuxtLink
                 class="menu-link"
                 :to="menuItem.route"
                 active-class="active"
@@ -31,7 +31,7 @@
                 <span class="menu-title">{{
                   translate(menuItem.heading)
                 }}</span>
-              </router-link>
+              </NuxtLink>
             </div>
           </template>
         </template>
@@ -72,7 +72,7 @@
                       v-if="headerMenuIcons === 'svg'"
                       class="svg-icon svg-icon-2"
                     >
-                      <inline-svg :src="menuItem.svgIcon" />
+                      <ClientOnly><inline-svg :src="menuItem.svgIcon" /></ClientOnly>
                     </span>
                   </span>
                   <span class="menu-title">{{
@@ -110,7 +110,7 @@
                           :key="l"
                         >
                           <div class="menu-item">
-                            <router-link
+                            <NuxtLink
                               class="menu-link py-3"
                               active-class="active"
                               :to="menuItem2.route"
@@ -121,13 +121,13 @@
                               <span class="menu-title">{{
                                 translate(menuItem2.heading)
                               }}</span>
-                            </router-link>
+                            </NuxtLink>
                           </div>
                         </template>
                       </div>
                     </div>
                     <div v-if="menuItem1.heading" class="menu-item">
-                      <router-link
+                      <NuxtLink
                         class="menu-link"
                         active-class="active"
                         :to="menuItem1.route"
@@ -138,28 +138,26 @@
                         <span class="menu-title">{{
                           translate(menuItem1.heading)
                         }}</span>
-                      </router-link>
+                      </NuxtLink>
                     </div>
                   </template>
                 </div>
               </div>
               <div v-if="menuItem.heading" class="menu-item">
-                <router-link
+                <NuxtLink
                   class="menu-link"
                   active-class="active"
                   :to="menuItem.route"
                 >
                   <span class="menu-icon">
                     <span class="svg-icon svg-icon-2">
-                      <inline-svg
-                        src="/media/icons/duotune/layouts/lay009.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/layouts/lay009.svg" /></ClientOnly>
                     </span>
                   </span>
                   <span class="menu-title">{{
                     translate(menuItem.heading)
                   }}</span>
-                </router-link>
+                </NuxtLink>
               </div>
             </template>
           </div>
@@ -189,21 +187,21 @@
                   v-if="headerMenuIcons === 'svg'"
                   class="svg-icon svg-icon-2"
                 >
-                  <inline-svg src="/media/icons/duotune/general/gen002.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen002.svg" /></ClientOnly>
                 </span>
               </span>
               <span class="menu-title">{{ translate("components") }}</span>
             </a>
           </div>
           <div class="menu-item">
-            <router-link class="menu-link py-3" to="/builder">
+            <NuxtLink class="menu-link py-3" to="/builder">
               <span class="menu-icon">
                 <span class="svg-icon svg-icon-2">
-                  <inline-svg src="/media/icons/duotune/general/gen019.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
                 </span>
               </span>
               <span class="menu-title">{{ translate("layoutBuilder") }}</span>
-            </router-link>
+            </NuxtLink>
           </div>
           <div class="menu-item">
             <a
@@ -219,7 +217,7 @@
                   v-else-if="headerMenuIcons === 'svg'"
                   class="svg-icon svg-icon-2"
                 >
-                  <inline-svg src="/media/icons/duotune/abstract/abs027.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/abstract/abs027.svg" /></ClientOnly>
                 </span>
               </span>
               <span class="menu-title">{{ translate("documentation") }}</span>
@@ -239,7 +237,7 @@
                   v-else-if="headerMenuIcons === 'svg'"
                   class="svg-icon svg-icon-2"
                 >
-                  <inline-svg src="/media/icons/duotune/coding/cod003.svg" />
+                  <ClientOnly><inline-svg src="/media/icons/duotune/coding/cod003.svg" /></ClientOnly>
                 </span>
               </span>
               <span class="menu-title"

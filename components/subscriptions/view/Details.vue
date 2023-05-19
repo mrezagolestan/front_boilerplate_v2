@@ -11,8 +11,8 @@
 
       <!--begin::Card toolbar-->
       <div class="card-toolbar">
-        <router-link to="/subscriptions/add" class="btn btn-light-primary"
-          >Update Product</router-link
+        <NuxtLink to="/subscriptions/add" class="btn btn-light-primary"
+          >Update Product</NuxtLink
         >
       </div>
       <!--end::Card toolbar-->
@@ -37,11 +37,11 @@
               <tr>
                 <td class="text-gray-400 min-w-175px w-175px">Bill to:</td>
                 <td class="text-gray-800 min-w-200px">
-                  <router-link
+                  <NuxtLink
                     to="/subscriptions/view"
                     class="text-gray-800 text-hover-primary"
                   >
-                    e.smith@kpmg.com.au</router-link
+                    e.smith@kpmg.com.au</NuxtLink
                   >
                 </td>
               </tr>
@@ -167,9 +167,7 @@
                     data-kt-menu-placement="bottom-end"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen019.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
                     </span>
                   </a>
                   <UserMenu></UserMenu>
@@ -195,9 +193,7 @@
                     data-kt-menu-placement="bottom-end"
                   >
                     <span class="svg-icon svg-icon-3">
-                      <inline-svg
-                        src="/media/icons/duotune/general/gen019.svg"
-                      />
+                      <ClientOnly><inline-svg src="/media/icons/duotune/general/gen019.svg" /></ClientOnly>
                     </span>
                   </a>
                   <UserMenu></UserMenu>

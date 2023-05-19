@@ -8,7 +8,7 @@
       <div class="card-toolbar">
         <button class="btn btn-flex btn-primary" @click="newEvent()">
           <span class="svg-icon svg-icon-2">
-            <inline-svg src="/media/icons/duotune/arrows/arr075.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/arrows/arr075.svg" /></ClientOnly>
           </span>
           Add Event
         </button>
@@ -52,8 +52,10 @@ export default defineComponent({
   },
   setup() {
     const newEvent = () => {
-      const modal = new Modal(document.getElementById("kt_modal_add_event"));
-      modal.show();
+      if (process.client){
+        // const modal = new Modal(document.getElementById("kt_modal_add_event"));
+        // modal.show();
+      }
     };
 
     const calendarOptions = {

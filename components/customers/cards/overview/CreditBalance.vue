@@ -18,7 +18,7 @@
           data-bs-target="#kt_modal_adjust_balance"
         >
           <span class="svg-icon svg-icon-3">
-            <inline-svg src="/media/icons/duotune/art/art005.svg" />
+            <ClientOnly><inline-svg src="/media/icons/duotune/art/art005.svg" /></ClientOnly>
           </span>
           Adjust Balance
         </a>

@@ -57,12 +57,12 @@
 
         <span class="fw-bold text-gray-500 mx-2">or</span>
 
-        <router-link
+        <NuxtLink
           to="/customers/list"
           class="btn btn-light-primary"
           data-bs-toggle="modal"
           data-bs-target="#kt_modal_users_search"
-          >Add New Customer</router-link
+          >Add New Customer</NuxtLink
         >
       </div>
       <!--end::Customer add buttons-->
