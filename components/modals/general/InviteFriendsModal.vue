@@ -63,11 +63,7 @@
           <!--end::Separator-->
 
           <!--begin::Textarea-->
-          <textarea
-            class="form-control form-control-solid mb-8"
-            rows="3"
-            placeholder="Type or paste emails here"
-          >
+          <textarea class="form-control form-control-solid mb-8" rows="3" placeholder="Type or paste emails here">
           </textarea>
           <!--end::Textarea-->
 

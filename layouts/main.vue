@@ -15,14 +15,11 @@
     >
       <KTAside v-if="asideEnabled" />
       <!-- begin:: Content -->
-      <div
-        id="kt_wrapper"
-        class="wrapper d-flex flex-column flex-row-fluid mt-5 mt-lg-10"
-      >
+      <div id="kt_wrapper" class="wrapper d-flex flex-column flex-row-fluid mt-5 mt-lg-10">
         <div class="content flex-column-fluid" id="kt_content">
           <!-- begin:: Content Body -->
           <div id="kt_post" class="post">
-            <router-view />
+            <NuxtPage />
           </div>
           <!-- end:: Content Body -->
         </div>
@@ -50,23 +47,23 @@ import { useBodyStore } from "@/store/body";
 import { useAuthStore } from "@/store/auth";
 
 import { useRoute, useRouter } from "vue-router";
-import KTAside from "./main-layout/aside/Aside.vue";
-import KTSidebar from "./main-layout/sidebar/Sidebar.vue";
-import KTHeader from "./main-layout/header/Header.vue";
-import KTFooter from "./main-layout/footer/Footer.vue";
-import HtmlClass from "../core/services/LayoutService";
-import KTScrollTop from "./main-layout/extras/ScrollTop.vue";
-import KTActivityDrawer from "./main-layout/drawers/ActivityDrawer.vue";
-import KTLoader from "../components/Loader.vue";
-import KTCreateApp from "../components/modals/wizards/create-app-modal/CreateAppModal.vue";
-import KTInviteFriendsModal from "../components/modals/general/InviteFriendsModal.vue";
-import KTDemosDrawer from "./main-layout/extras/DemosDrawer.vue";
-import KTHelpDrawer from "./main-layout/extras/HelpDrawer.vue";
-import KTToolButtons from "./main-layout/extras/ToolButtons.vue";
-import KTDrawerMessenger from "./main-layout/extras/MessengerDrawer.vue";
-import { MenuComponent } from "../assets/ts/components";
-import { removeModalBackdrop } from "../core/helpers/dom";
-import { reinitializeComponents } from "../core/plugins/keenthemes";
+import KTAside from "@/layouts/main-layout/aside/Aside.vue";
+import KTSidebar from "@/layouts/main-layout/sidebar/Sidebar.vue";
+import KTHeader from "@/layouts/main-layout/header/Header.vue";
+import KTFooter from "@/layouts/main-layout/footer/Footer.vue";
+import HtmlClass from "@/core/services/LayoutService";
+import KTScrollTop from "@/layouts/main-layout/extras/ScrollTop.vue";
+import KTActivityDrawer from "@/layouts/main-layout/drawers/ActivityDrawer.vue";
+import KTLoader from "@/components/Loader.vue";
+import KTCreateApp from "@/components/modals/wizards/create-app-modal/CreateAppModal.vue";
+import KTInviteFriendsModal from "@/components/modals/general/InviteFriendsModal.vue";
+import KTDemosDrawer from "@/layouts/main-layout/extras/DemosDrawer.vue";
+import KTHelpDrawer from "@/layouts/main-layout/extras/HelpDrawer.vue";
+import KTToolButtons from "@/layouts/main-layout/extras/ToolButtons.vue";
+import KTDrawerMessenger from "@/layouts/main-layout/extras/MessengerDrawer.vue";
+import { MenuComponent } from "@/assets/ts/components";
+import { removeModalBackdrop } from "@/core/helpers/dom";
+import { reinitializeComponents } from "@/core/plugins/keenthemes";
 import {
   toolbarDisplay,
   loaderEnabled,

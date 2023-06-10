@@ -11,7 +11,7 @@
 
       <!--begin::Action-->
       <NuxtLink
-        to="/account/settings"
+        to="/crafted/account/settings"
         class="btn btn-primary align-self-center"
         >Edit Profile</NuxtLink
       >

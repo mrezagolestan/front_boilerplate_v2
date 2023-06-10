@@ -36,7 +36,7 @@
 
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         My Profile
       </NuxtLink>
     </div>
@@ -44,7 +44,7 @@
 
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         <span class="menu-text">My Projects</span>
         <span class="menu-badge">
           <span class="badge badge-light-danger badge-circle fw-bold fs-7"
@@ -62,7 +62,7 @@
       data-kt-menu-placement="left-start"
       data-kt-menu-flip="center, top"
     >
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         <span class="menu-title">My Subscription</span>
         <span class="menu-arrow"></span>
       </NuxtLink>
@@ -71,7 +71,7 @@
       <div class="menu-sub menu-sub-dropdown w-175px py-4">
         <!--begin::Menu item-->
         <div class="menu-item px-3">
-          <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+          <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
             Referrals
           </NuxtLink>
         </div>
@@ -79,7 +79,7 @@
 
         <!--begin::Menu item-->
         <div class="menu-item px-3">
-          <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+          <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
             Billing
           </NuxtLink>
         </div>
@@ -87,7 +87,7 @@
 
         <!--begin::Menu item-->
         <div class="menu-item px-3">
-          <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+          <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
             Payments
           </NuxtLink>
         </div>
@@ -96,7 +96,7 @@
         <!--begin::Menu item-->
         <div class="menu-item px-3">
           <NuxtLink
-            to="/pages/profile/overview"
+            to="/crafted/pages/profile/overview"
             class="menu-link d-flex flex-stack px-5"
           >
             Statements
@@ -141,7 +141,7 @@
 
     <!--begin::Menu item-->
     <div class="menu-item px-5">
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         My Statements
       </NuxtLink>
     </div>
@@ -158,7 +158,7 @@
       data-kt-menu-placement="left-start"
       data-kt-menu-flip="center, top"
     >
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         <span class="menu-title position-relative">
           Language
           <span
@@ -282,7 +282,7 @@
 
     <!--begin::Menu item-->
     <div class="menu-item px-5 my-1">
-      <NuxtLink to="/pages/profile/overview" class="menu-link px-5">
+      <NuxtLink to="/crafted/pages/profile/overview" class="menu-link px-5">
         Account Settings
       </NuxtLink>
     </div>

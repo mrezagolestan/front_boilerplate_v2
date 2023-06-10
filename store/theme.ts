@@ -25,7 +25,6 @@ export const useThemeStore = defineStore('themeModule', {
       this.mode =  payload;
     },
     getThemeMode(): string {
-      console.log('getThemeMode = ' + this.mode)
       return this.mode;
     },
     async setThemeModeAction(payload) {
