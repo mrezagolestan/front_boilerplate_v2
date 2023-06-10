@@ -47,24 +47,25 @@
 <script lang="ts">
 import { defineComponent, computed, onMounted, watch, nextTick } from "vue";
 import { useBodyStore } from "@/store/body";
+import { useAuthStore } from "@/store/auth";
 import { useRoute, useRouter } from "vue-router";
-import KTAside from "./main-layout/aside/Aside.vue";
-import KTSidebar from "./main-layout/sidebar/Sidebar.vue";
-import KTHeader from "./main-layout/header/Header.vue";
-import KTFooter from "./main-layout/footer/Footer.vue";
-import HtmlClass from "../core/services/LayoutService";
-import KTScrollTop from "./main-layout/extras/ScrollTop.vue";
-import KTActivityDrawer from "./main-layout/drawers/ActivityDrawer.vue";
-import KTLoader from "../components/Loader.vue";
-import KTCreateApp from "../components/modals/wizards/create-app-modal/CreateAppModal.vue";
-import KTInviteFriendsModal from "../components/modals/general/InviteFriendsModal.vue";
-import KTDemosDrawer from "./main-layout/extras/DemosDrawer.vue";
-import KTHelpDrawer from "./main-layout/extras/HelpDrawer.vue";
-import KTToolButtons from "./main-layout/extras/ToolButtons.vue";
-import KTDrawerMessenger from "./main-layout/extras/MessengerDrawer.vue";
-import { MenuComponent } from "../assets/ts/components";
-import { removeModalBackdrop } from "../core/helpers/dom";
-import { reinitializeComponents } from "../core/plugins/keenthemes";
+import KTAside from "@/layouts/main-layout/aside/Aside.vue";
+import KTSidebar from "@/layouts/main-layout/sidebar/Sidebar.vue";
+import KTHeader from "@/layouts/main-layout/header/Header.vue";
+import KTFooter from "@/layouts/main-layout/footer/Footer.vue";
+import HtmlClass from "@/core/services/LayoutService";
+import KTScrollTop from "@/layouts/main-layout/extras/ScrollTop.vue";
+import KTActivityDrawer from "@/layouts/main-layout/drawers/ActivityDrawer.vue";
+import KTLoader from "@/components/Loader.vue";
+import KTCreateApp from "@/components/modals/wizards/create-app-modal/CreateAppModal.vue";
+import KTInviteFriendsModal from "@/components/modals/general/InviteFriendsModal.vue";
+import KTDemosDrawer from "@/layouts/main-layout/extras/DemosDrawer.vue";
+import KTHelpDrawer from "@/layouts/main-layout/extras/HelpDrawer.vue";
+import KTToolButtons from "@/layouts/main-layout/extras/ToolButtons.vue";
+import KTDrawerMessenger from "@/layouts/main-layout/extras/MessengerDrawer.vue";
+import { MenuComponent } from "@/assets/ts/components";
+import { removeModalBackdrop } from "@/core/helpers/dom";
+import { reinitializeComponents } from "@/core/plugins/keenthemes";
 import {
   toolbarDisplay,
   loaderEnabled,
@@ -75,7 +76,7 @@ import {
   subheaderDisplay,
   themeLightLogo,
   themeDarkLogo,
-} from "../core/helpers/config";
+} from "@/core/helpers/config";
 
 export default defineComponent({
   name: "master-layout",
@@ -96,11 +97,14 @@ export default defineComponent({
   },
   setup() {
     const bodyStore = useBodyStore();
+    const authStore = useAuthStore();
     const route = useRoute();
     const router = useRouter();
 
     // show page loading
     bodyStore.addBodyClassName("page-loading");
+
+    console.log(bodyStore.pageTitle);
 
     const pageTitle = computed(() => {
       return bodyStore.pageTitle;
@@ -112,7 +116,7 @@ export default defineComponent({
 
     onMounted(() => {
       //check if current user is authenticated
-      if (!store.getters.isUserAuthenticated) {
+      if (!authStore.isUserAuthenticated) {
         router.push({ name: "sign-in" });
       }
 

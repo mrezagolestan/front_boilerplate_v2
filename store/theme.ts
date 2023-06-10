@@ -2,7 +2,6 @@ import { ThemeModeComponent } from "assets/ts/layout";
 import { defineStore } from 'pinia'
 
 
-
 const themeModeLSKey = "kt_theme_mode_value";
 const themeMenuModeLSKey = "kt_theme_mode_menu";
 
@@ -26,6 +25,7 @@ export const useThemeStore = defineStore('themeModule', {
       this.mode =  payload;
     },
     getThemeMode(): string {
+      console.log('getThemeMode = ' + this.mode)
       return this.mode;
     },
     async setThemeModeAction(payload) {

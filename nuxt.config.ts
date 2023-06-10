@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ],
     css: [
         'bootstrap-icons/font/bootstrap-icons.css',
-        'apexcharts/dist/apexcharts.css',
+        //'apexcharts/dist/apexcharts.css',
         'quill/dist/quill.snow.css',
         'animate.css',
         'sweetalert2/dist/sweetalert2.css',

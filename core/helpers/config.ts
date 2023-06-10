@@ -112,7 +112,7 @@ export const contentWidthFluid = computed(() => {
  * @returns {string}
  */
 export const loaderLogo = computed(() => {
-  return process.env.BASE_URL + configStore.layoutConfig("loader.logo");
+  return import.meta.env.BASE_URL + configStore.layoutConfig("loader.logo");
 });
 
 /**
